@@ -1,5 +1,5 @@
 {
-  "name": "vvultimatum-sbs",
+  "name": "infalsus-top",
   "compatibility_date": "2024-09-01",
   "workers_dev": false,
   "assets": {
@@ -7,7 +7,7 @@
   },
   "routes": [
     {
-      "pattern": "vvultimatum.sbs",
+      "pattern": "infalsus.top",
       "custom_domain": true
     }
   ]
