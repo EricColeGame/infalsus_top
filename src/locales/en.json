@@ -9,8 +9,8 @@
   "nav": {},
   "home": {
     "meta": {
-      "title": "In Falsus Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete In Falsus guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "In Falsus Wiki — Guides, Rhythm Mechanics & Cards",
+      "description": "Explore In Falsus Wiki for rhythm game mechanics, card integration blueprints, difficulty progression, songs list, character guides, and PC tips."
     },
     "hero": {
       "eyebrow": "Dark Fantasy Adventure Game",
@@ -39,22 +39,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Master the rhythm lanes, controls, card integration basics, and early progression tips in In Falsus."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Rhythm Note Mechanics",
+          "description": "Learn how to master TAP, HOLD, FIELD tracking, and directional FLICK note timings across every chart."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Card Integration & Crafting",
+          "description": "Assemble Iota traits, fill Hex Board zones, prevent overload penalties, and build powerful song setups."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in In Falsus."
+          "title": "Difficulty Progression",
+          "description": "Progress smoothly from 4K Minimal (MIN) up through Evolved (EVO), Ultimate (ULT), and Forbidden (FBD)."
         }
       ]
     },
@@ -62,237 +62,341 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Card Integration",
+        "Difficulty Tiers",
+        "Song List"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need from your first dive to mastering key controls and rhythm mechanics.",
+          "href": "/guide/in-falsus-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Core System",
+          "title": "Card Integration Guide",
+          "description": "Complete blueprint socketing reference with Iota traits, power formulas, and penalty prevention.",
+          "href": "/guide/in-falsus-cards-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Mechanics",
+          "title": "Difficulty Tiers Guide",
+          "description": "Full breakdown of MIN 4K, EVO 5K, ULT 6K, and FBD 6K+ note lanes and rating benchmarks.",
+          "href": "/guide/in-falsus-difficulty-guide"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Soundtrack",
+          "title": "Complete Song List",
+          "description": "Searchable track database with featured composers, crossover songs, and chart levels.",
+          "href": "/guide/in-falsus-songs-list"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Lore",
+          "title": "Protagonists & Story",
+          "description": "Background and lore for Nia, Mei, Ayame, Iris, and Story across their five academies.",
+          "href": "/guide/in-falsus-characters-guide"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Strategy",
+          "title": "Rhythm & Gameplay Tips",
+          "description": "Pro tips for keybind layouts, FIELD mouse tracking, and maximizing Phase damage windows.",
+          "href": "/guide/in-falsus-gameplay-tips"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Technical",
+          "title": "System Requirements",
+          "description": "PC hardware specifications, audio latency optimization, and display settings.",
+          "href": "/guide/in-falsus-system-requirements"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Updates",
+          "title": "News & Patch Notes",
+          "description": "Official lowiro announcements, release details, demo archives, and update schedules.",
+          "href": "/guide/in-falsus-news-updates"
         }
       ]
     },
     "aboutGame": {
       "title": "What is In Falsus?",
       "paragraphs": [
-        "In Falsus is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "In Falsus is a stylish rhythm and card integration adventure developed by lowiro. Guide five high school students across a mysterious world collared beneath a long shadow, battling through dynamic musical encounters while unraveling deep narrative mysteries.",
+        "Blend lightning-fast keyboard and mouse rhythm gameplay with strategic deckbuilding. Craft Iota traits onto Hex Board blueprints, conquer four distinct difficulty tiers from Minimal to Forbidden, and master complex mechanics including TAP, HOLD, FIELD tracking, and directional FLICK notes."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "lowiro"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Rhythm / Card ADV"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Difficulty Tiers",
+          "value": "4 (MIN to FBD)"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Protagonists",
+          "value": "5 Students"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Engine",
+          "value": "Unity"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore In Falsus Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master rhythm mechanics, card integration blueprints, track charts, difficulty tiers, and gameplay strategies with comprehensive guides.",
       "modules": [
         {
           "order": 1,
-          "name": "In Falsus Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "In Falsus Beginner Guide",
+          "description": "A starter guide covering the core gameplay loop, rhythm mechanics, card system, crafting basics, difficulty selection, and early progression tips.",
+          "href": "/guide/in-falsus-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Configure keybinds and calibrate audio-visual offset for responsive rhythm timing"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Learn core note interactions: TAP, HOLD, FIELD cursor tracking, and FLICK swipes"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Assemble early Card Blueprints with Iota chips to boost Power, Defense, and Resolve"
+            },
+            {
+              "label": "4",
+              "detail": "Progress through story chapters and unlock new song charts on Minimal (MIN) difficulty"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "In Falsus Cards Guide",
+          "description": "Explains the card system, card crafting, blueprints, materials, equipment choices, and how players can optimize builds for different songs and challenges.",
+          "href": "/guide/in-falsus-cards-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Blueprints",
+              "detail": "Hex Board layouts that define stat zones and trait slot capacities"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Iota",
+              "detail": "Socketable stat chips providing raw Power, Defense, and battle traits"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Overload",
+              "detail": "Prevent stat penalties by keeping placed Iota within board limits"
+            },
+            {
+              "label": "Resonance",
+              "detail": "Harmonize color affinities to gain a 1.25x combat power multiplier"
+            },
+            {
+              "label": "Traits",
+              "detail": "Special opening and inner battle passives activated during encounters"
+            },
+            {
+              "label": "Resolve",
+              "detail": "Maintain health pools across consecutive song phases to secure victories"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
+          "name": "In Falsus Difficulty Guide",
+          "description": "Introduces the four difficulty levels, gameplay differences, and recommendations for beginners and experienced rhythm game players.",
+          "href": "/guide/in-falsus-difficulty-guide",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "FBD (Forbidden) Tier · 6K+ wide notes, intense density, highest precision challenge"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "ULT (Ultimate) Tier · 6K agile three-finger rhythm movement and complex cross-lanes"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "EVO (Evolved) Tier · 5K dynamic shifting active lanes and mid-chart surprises"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "MIN (Minimal) Tier · 4K static finger placement, accessible for rhythm newcomers"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "In Falsus Songs List",
+          "description": "Provides a searchable list of available songs, composers, and music-related information across the entire soundtrack.",
+          "href": "/guide/in-falsus-songs-list",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Soundtrack",
+              "detail": "Diverse electronic, orchestral, and vocal tracks composed by renowned artists"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Cryogenic",
+              "detail": "Iconic signature track featured in rhythm game crossovers and collaborations"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Chart Levels",
+              "detail": "Dynamic note densities and lane speeds scaled across all 4 difficulty tiers"
+            },
+            {
+              "label": "Story Tracks",
+              "detail": "Narrative-locked musical stages unlocked by advancing student scenarios"
+            },
+            {
+              "label": "Boss Themes",
+              "detail": "High-intensity climactic encounters with intricate note patterns and field mechanics"
+            },
+            {
+              "label": "Score Grades",
+              "detail": "Push precision to achieve EX+ (99M+), EX (98M+), and AA (95M+) ratings"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "In Falsus Characters Guide",
+          "description": "Introduces the five protagonists, their roles, story connections, and narrative background across their respective academies.",
+          "href": "/guide/in-falsus-characters-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Nia Cana",
+              "detail": "Akie High School student balancing bright optimism against mysterious shadows"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Mei Alder",
+              "detail": "Dedicated Akie High performer driven by an unwavering artistic duty"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Ayame",
+              "detail": "Amachi Institute of Art & Design creator seeking truth in the painted sky"
+            },
+            {
+              "label": "Iris Leal",
+              "detail": "Oskar Beck High combatant with a direct, uncompromising protective spirit"
+            },
+            {
+              "label": "Story",
+              "detail": "Xenia Academy scholar analyzing the worth and consequences of written history"
+            },
+            {
+              "label": "Academies",
+              "detail": "Five distinct institutions linked by a looming metaphysical boundary"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "In Falsus Gameplay Tips",
+          "description": "Collects practical gameplay advice including control tips, rhythm improvement methods, and strategies for handling difficult encounters.",
+          "href": "/guide/in-falsus-gameplay-tips",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Keybinds",
+              "detail": "Separate primary 4K/6K fingers ergonomically to reduce mechanical strain"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Cursor",
+              "detail": "Maintain loose mouse grip for rapid transitions into FIELD tracking zones"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Flick Speed",
+              "detail": "Execute horizontal mouse snaps cleanly across yellow and green boundaries"
+            },
+            {
+              "label": "Timing",
+              "detail": "Align note hits to auditory basslines rather than relying purely on visual cues"
+            },
+            {
+              "label": "Penalties",
+              "detail": "Eliminate board disconnects and overlaps to ensure 100% stat efficiency"
+            },
+            {
+              "label": "Resonance",
+              "detail": "Align card element colors against opponent weaknesses for massive damage spikes"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "In Falsus System Requirements",
+          "description": "Shows minimum PC requirements, supported platforms, languages, and technical details to ensure optimal rhythm performance.",
+          "href": "/guide/in-falsus-system-requirements",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Windows 10 / Windows 11 (64-bit operating system required)"
+            },
+            {
+              "label": "Processor",
+              "detail": "Intel Core i5-6400 / AMD Ryzen 3 1200 or equivalent"
+            },
+            {
+              "label": "Memory",
+              "detail": "8 GB RAM minimum for smooth 60+ FPS rhythm rendering"
+            },
+            {
+              "label": "Graphics",
+              "detail": "NVIDIA GeForce GTX 960 / AMD Radeon R9 280 (DirectX 11 support)"
+            },
+            {
+              "label": "Audio",
+              "detail": "Low-latency ASIO or standard stereo sound device strongly recommended"
+            },
+            {
+              "label": "Storage",
+              "detail": "10 GB available SSD storage space for rapid song and visual loading"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "In Falsus News & Updates",
+          "description": "Displays official announcements, release information, demo updates, events, and developer news from lowiro.",
+          "href": "/guide/in-falsus-news-updates",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Steam Launch",
+              "detail": "Full game launched globally on Steam with day-one release discount",
+              "badge": "Out Now"
+            },
+            {
+              "label": "Demo v0.3.1",
+              "detail": "Archived launch demo featuring six playable songs and early mechanics",
+              "badge": "Archive"
+            },
+            {
+              "label": "Patch Roadmap",
+              "detail": "Upcoming music track expansions, balance passes, and community features",
+              "badge": "Roadmap"
+            },
+            {
+              "label": "Crossover Pack",
+              "detail": "Cryogenic rhythm collaborations across Arcaea, Cytus II, and CHUNITHM",
+              "badge": "Special"
             }
           ]
         }
@@ -304,23 +408,23 @@
       "items": [
         {
           "question": "What is In Falsus?",
-          "answer": "In Falsus is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "In Falsus is a dark fantasy rhythm and card integration adventure developed by lowiro. It blends fast-paced 4K to 6K+ keyboard and mouse rhythm action with strategic Hex Board deckbuilding, following five students unraveling mysteries across a fractured world."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "What platforms is In Falsus available on?",
+          "answer": "In Falsus is officially available on PC via Steam. Players on macOS or handheld devices can run the game using compatible compatibility layers with proper audio latency tuning."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How does the card integration mechanic work in In Falsus?",
+          "answer": "In Falsus features a unique Hex Board card system where players insert Iota chips into blueprints to boost Power, Defense, and Resolve. Avoiding penalties like Overload or Disconnect ensures maximum stat output during song battles."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What difficulty levels are available in In Falsus?",
+          "answer": "In Falsus offers four difficulty tiers: Minimal (MIN 4K), Evolved (EVO 5K), Ultimate (ULT 6K), and Forbidden (FBD 6K+ with wide notes and high density), catering to both newcomers and hardcore rhythm veterans."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Are there active redeem codes in In Falsus?",
+          "answer": "In Falsus is a premium standalone PC game on Steam and does not currently use a code redemption system. Any future promotional events or official bonuses will be featured in our updates guide."
         }
       ]
     },
