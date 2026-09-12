@@ -30,6 +30,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.gg/lowiro",
     youtube: "https://www.youtube.com/@lowiro",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "de", "es", "fr"],
   defaultLocale: "en",
 };

@@ -6,24 +6,7 @@
     "description": "Complete In Falsus Wiki with gameplay guides, character details, card crafting, mechanics, and essential resources for players.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {
-    "races": "Races",
-    "bosses": "Bosses",
-    "guides": "Guides",
-    "codes": "Codes",
-    "tierList": "Tier List",
-    "maps": "Maps",
-    "skills": "Skills",
-    "updates": "Updates",
-    "home": "Home",
-    "menu": "Menu",
-    "toggleTheme": "Toggle theme",
-    "guide": "Guides",
-    "seafood": "Seafood & Recipes",
-    "upgrades": "Upgrades",
-    "gamepasses": "Gamepasses",
-    "community": "Community"
-  },
+  "nav": {},
   "home": {
     "meta": {
       "title": "In Falsus Wiki — Codes, Recipes, Upgrades & Guides",
@@ -347,19 +330,6 @@
       "primary": "Read the Beginner Guide",
       "secondary": "Play on Steam"
     }
-  },
-  "bosses": {
-    "meta": {
-      "title": "Bosses — Complete Guide & Walkthrough | In Falsus Wiki",
-      "description": "Complete boss guides for In Falsus — all bosses from tutorial Gelum to endgame encounters with strategies, drops, and respawn timers."
-    },
-    "overviewTitle": "Bosses Overview",
-    "overviewDescription": "Complete guides for every boss encounter in In Falsus 13 bosses from the tutorial knight Gelum to endgame encounters like the Gelid Dweller and Gauntlet challenges.",
-    "body": "Bosses in In Falsus serve as skill gates and progression milestones. Some, like Gelum, teach you the combat fundamentals during the tutorial. Others, such as the Shikai Spirit and Resurreccion Spirit, are inner-world encounters tied directly to your race's power unlock. Area bosses like Dragonfly, King Croc, and Securis guard access to new zones and rewards. Recent additions include the Rogue Commander with his Minions, the ice-themed The Everfrosted, and four brand new endgame bosses: The Gelid Dweller, Cinder of the Broken Sky, Devourer of Hosts, and the Wandering Swordsman (Junichiro). Each boss has distinct attack patterns and telegraphed moves you need to learn. Use the guides below to prepare for every fight.",
-    "guidesTitle": "Bosses Guides",
-    "readMore": "Read more",
-    "new": "New",
-    "popular": "Popular"
   },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
