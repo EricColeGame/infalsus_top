@@ -1,1 +1,505 @@
-{}
+{
+  "site": {
+    "name": "In Falsus Wiki",
+    "shortName": "In Falsus",
+    "tagline": "Guía completa de acción rítmica e integración de cartas",
+    "description": "Explora In Falsus Wiki para obtener guías de juego, mecánicas rítmicas, creación de cartas, planos Hex Board, personajes y consejos para PC.",
+    "legalNotice": "In Falsus Wiki es un sitio independiente creado por fans y no está afiliado a lowiro ni a Steam."
+  },
+  "nav": {
+    "release": "Release",
+    "guide": "Guide",
+    "access": "Access",
+    "features": "Features",
+    "community": "Community",
+    "codes": "Codes"
+  },
+  "home": {
+    "meta": {
+      "title": "In Falsus Wiki — Guías, mecánicas rítmicas y cartas",
+      "description": "Explora In Falsus Wiki para conocer mecánicas de juego de ritmo, planos de integración de cartas, niveles de dificultad, lista de canciones y guías."
+    },
+    "hero": {
+      "eyebrow": "Juego de aventura y fantasía oscura",
+      "title": "In Falsus Wiki",
+      "description": "Explora In Falsus Wiki para acceder a guías de juego, mecánicas, personajes, actualizaciones e información esencial para jugadores.",
+      "stats": [
+        "Guías de juego",
+        "Detalles de personajes",
+        "Creación de cartas",
+        "Últimas actualizaciones"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Lista de personajes",
+      "tertiaryCta": "Mecánicas de juego",
+      "videoLabel": "Medios oficiales"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Explorar todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje en In Falsus",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Domina las pistas de ritmo, los controles, los conceptos básicos de integración de cartas y los primeros pasos en In Falsus."
+        },
+        {
+          "number": "2",
+          "title": "Mecánicas de notas de ritmo",
+          "description": "Aprende a sincronizar a la perfección notas TAP, HOLD, seguimiento FIELD y deslizamientos FLICK en cada tema."
+        },
+        {
+          "number": "3",
+          "title": "Integración de cartas y creación",
+          "description": "Ensambla rasgos Iota, completa zonas de Hex Board, evita penalizaciones por sobrecarga y crea barajas poderosas."
+        },
+        {
+          "number": "4",
+          "title": "Progresión de dificultad",
+          "description": "Avanza progresivamente desde 4K Minimal (MIN) hasta Evolved (EVO), Ultimate (ULT) y Forbidden (FBD)."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias actuales",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Integración de cartas",
+        "Niveles de dificultad",
+        "Lista de canciones"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Todo lo necesario desde tu primera partida hasta dominar los controles de teclas y las mecánicas de ritmo.",
+          "href": "/guide/in-falsus-beginner-guide"
+        },
+        {
+          "badge": "Sistema clave",
+          "title": "Guía de integración de cartas",
+          "description": "Referencia completa para engarzar planos con rasgos Iota, fórmulas de poder y prevención de penalizaciones.",
+          "href": "/guide/in-falsus-cards-guide"
+        },
+        {
+          "badge": "Mecánicas",
+          "title": "Guía de dificultades",
+          "description": "Desglose exhaustivo de las pistas de notas y estándares de puntuación en MIN 4K, EVO 5K, ULT 6K y FBD 6K+.",
+          "href": "/guide/in-falsus-difficulty-guide"
+        },
+        {
+          "badge": "Banda sonora",
+          "title": "Lista completa de canciones",
+          "description": "Base de datos interactiva con compositores destacados, temas de colaboración y niveles de dificultad.",
+          "href": "/guide/in-falsus-songs-list"
+        },
+        {
+          "badge": "Historia",
+          "title": "Protagonistas e historia",
+          "description": "Información y trasfondo argumental de Nia, Mei, Ayame, Iris y Story a través de sus academias.",
+          "href": "/guide/in-falsus-characters-guide"
+        },
+        {
+          "badge": "Estrategia",
+          "title": "Consejos de juego y ritmo",
+          "description": "Consejos profesionales para esquemas de teclas, seguimiento FIELD con ratón y daño de fase.",
+          "href": "/guide/in-falsus-gameplay-tips"
+        },
+        {
+          "badge": "Técnico",
+          "title": "Requisitos del sistema",
+          "description": "Especificaciones de hardware para PC, optimización de latencia de audio y ajustes de pantalla.",
+          "href": "/guide/in-falsus-system-requirements"
+        },
+        {
+          "badge": "Actualizaciones",
+          "title": "Noticias y notas de parches",
+          "description": "Anuncios oficiales de lowiro, detalles de lanzamiento, archivos de demos y hojas de ruta.",
+          "href": "/guide/in-falsus-news-updates"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es In Falsus?",
+      "paragraphs": [
+        "In Falsus es una estilizada aventura de ritmo e integración de cartas desarrollada por lowiro. Acompaña a cinco estudiantes de secundaria a través de un mundo misterioso bajo una densa sombra, luchando en dinámicos encuentros musicales mientras desentrañan profundos enigmas.",
+        "Combina un juego de ritmo trepidante con teclado y ratón con la construcción estratégica de mazos. Diseña rasgos Iota en planos Hex Board, supera cuatro niveles de dificultad desde Minimal hasta Forbidden y domina notas complejas como TAP, HOLD, FIELD y FLICK."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "lowiro"
+        },
+        {
+          "label": "Plataforma",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Género",
+          "value": "Ritmo / Card ADV"
+        },
+        {
+          "label": "Niveles de dificultad",
+          "value": "4 (MIN a FBD)"
+        },
+        {
+          "label": "Protagonistas",
+          "value": "5 Estudiantes"
+        },
+        {
+          "label": "Motor",
+          "value": "Unity"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora In Falsus",
+      "description": "Sumérgete en guías detalladas sobre mecánicas rítmicas, planos de cartas, niveles de dificultad, personajes y optimización del sistema.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "In Falsus Beginner Guide",
+          "description": "Una guía inicial que cubre el bucle central de juego, mecánicas de ritmo, cartas, conceptos básicos de creación y progresión.",
+          "href": "/guide/in-falsus-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Configura combinaciones de teclas y calibra el offset audiovisual para una sincronización óptima"
+            },
+            {
+              "label": "2",
+              "detail": "Aprende las interacciones básicas: TAP, HOLD, seguimiento de cursor FIELD y deslizamientos FLICK"
+            },
+            {
+              "label": "3",
+              "detail": "Engarza chips Iota en planos Hex Board para incrementar el poder de combate inicial"
+            },
+            {
+              "label": "4",
+              "detail": "Comienza en dificultad MIN (Minimal 4K) y desbloquea gradualmente desafíos superiores"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "In Falsus Cards Guide",
+          "description": "Explica el sistema de cartas, creación, planos, materiales, selección de equipo y cómo optimizar configuraciones para cada canción.",
+          "href": "/guide/in-falsus-cards-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Blueprints",
+              "detail": "Estructuras Hex Board que definen zonas de atributos y capacidad de ranuras de rasgos"
+            },
+            {
+              "label": "Iota",
+              "detail": "Chips engarzables que otorgan poder base, defensa y habilidades de combate"
+            },
+            {
+              "label": "Overload",
+              "detail": "Control de límites de capacidad para evitar penalizaciones de fase durante las canciones"
+            },
+            {
+              "label": "Resonance",
+              "detail": "Bonificaciones por armonía entre elementos afines para potenciar la puntuación"
+            },
+            {
+              "label": "Traits",
+              "detail": "Habilidades pasivas especiales como mitigación de daño, margen de timing y aumentos de puntos"
+            },
+            {
+              "label": "Resolve",
+              "detail": "Estadística de supervivencia y recuperación para mitigar fallos en canciones difíciles"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "In Falsus Difficulty Guide",
+          "description": "Presenta los cuatro niveles de dificultad, diferencias de juego y recomendaciones tanto para principiantes como para veteranos.",
+          "href": "/guide/in-falsus-difficulty-guide",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Nivel FBD (Forbidden) · Pistas 6K+ con notas anchas, densidad extrema y máxima exigencia"
+            },
+            {
+              "label": "A",
+              "detail": "Nivel ULT (Ultimate) · Movilidad rítmica de tres dedos en 6K y carriles cruzados complejos"
+            },
+            {
+              "label": "B",
+              "detail": "Nivel EVO (Evolved) · Híbrido 5K con carril central y rápidos deslizamientos direccionales"
+            },
+            {
+              "label": "C",
+              "detail": "Nivel MIN (Minimal) · Formato 4K tradicional, ideal para principiantes y memorización"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "In Falsus Songs List",
+          "description": "Ofrece un catálogo con opción de búsqueda de canciones, compositores y datos musicales de toda la banda sonora.",
+          "href": "/guide/in-falsus-songs-list",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Soundtrack",
+              "detail": "Pistas electrónicas, orquestales y vocales creadas por reconocidos compositores"
+            },
+            {
+              "label": "Cryogenic",
+              "detail": "Pista insignia del título destacada en colaboraciones y eventos de juegos de ritmo"
+            },
+            {
+              "label": "Chart Levels",
+              "detail": "Clasificaciones numéricas del nivel 1 al 15+ para calibrar la habilidad requerida"
+            },
+            {
+              "label": "Story Tracks",
+              "detail": "Composiciones exclusivas ligadas a los momentos cumbre de la historia"
+            },
+            {
+              "label": "Boss Themes",
+              "detail": "Canciones de alta intensidad con cambios repentinos de velocidad y fases complejas"
+            },
+            {
+              "label": "Score Grades",
+              "detail": "Rangos de puntuación desde D hasta Pure EX según precisión y combo mantenido"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "In Falsus Characters Guide",
+          "description": "Presenta a los cinco protagonistas, sus roles, conexiones narrativas y contexto en sus academias.",
+          "href": "/guide/in-falsus-characters-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Nia Cana",
+              "detail": "Estudiante de Akie High que equilibra un optimismo radiante con misteriosas sombras"
+            },
+            {
+              "label": "Mei Alder",
+              "detail": "Artista comprometida de Akie High guiada por un inquebrantable sentido del deber"
+            },
+            {
+              "label": "Ayame",
+              "detail": "Intérprete disciplinada que une la tradición con la excelencia técnica de ritmo"
+            },
+            {
+              "label": "Iris Leal",
+              "detail": "Estratega analítica especializada en la optimización de esquemas Hex Board"
+            },
+            {
+              "label": "Story",
+              "detail": "Enigmática figura central cuyo pasado está entrelazado con las anomalías musicales"
+            },
+            {
+              "label": "Academies",
+              "detail": "Cinco instituciones formativas que definen las mecánicas y el trasfondo argumental"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "In Falsus Gameplay Tips",
+          "description": "Reúne consejos prácticos de juego, pautas de control, métodos de mejora de ritmo y tácticas para pasajes exigentes.",
+          "href": "/guide/in-falsus-gameplay-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Keybinds",
+              "detail": "Distribución ergonómica de teclas para 4K/6K que previene la fatiga muscular"
+            },
+            {
+              "label": "Cursor",
+              "detail": "Agarre relajado del ratón para transiciones fluidas hacia zonas de rastreo FIELD"
+            },
+            {
+              "label": "Flick Speed",
+              "detail": "Deslizamientos breves y precisos en lugar de sacudidas amplias para asegurar el registro"
+            },
+            {
+              "label": "Timing",
+              "detail": "Atención al sonido rítmico para mantener una sincronización perfecta en notas Pure"
+            },
+            {
+              "label": "Penalties",
+              "detail": "Ajuste de baraja para mitigar las pérdidas de vida causadas por notas perdidas"
+            },
+            {
+              "label": "Resonance",
+              "detail": "Activación estratégica de ventanas de resonancia para multiplicar el daño de fase"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "In Falsus System Requirements",
+          "description": "Muestra requisitos mínimos de PC, plataformas compatibles, idiomas e información técnica para un rendimiento impecable.",
+          "href": "/guide/in-falsus-system-requirements",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Windows 10 / Windows 11 (se requiere sistema operativo de 64 bits)"
+            },
+            {
+              "label": "Processor",
+              "detail": "Intel Core i5-6400 / AMD Ryzen 3 1200 o equivalente"
+            },
+            {
+              "label": "Memory",
+              "detail": "8 GB de RAM recomendados para carga rápida de canciones e interfaz fluida"
+            },
+            {
+              "label": "Graphics",
+              "detail": "NVIDIA GeForce GTX 960 / AMD Radeon R9 280 para 60+ FPS estables"
+            },
+            {
+              "label": "Audio",
+              "detail": "Controladores de audio de baja latencia (ASIO) sugeridos para respuesta inmediata"
+            },
+            {
+              "label": "Storage",
+              "detail": "10 GB de espacio libre (se recomienda unidad SSD para cargas instantáneas)"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "In Falsus News & Updates",
+          "description": "Muestra anuncios oficiales, detalles de lanzamiento, actualizaciones de demos, eventos y noticias de lowiro.",
+          "href": "/guide/in-falsus-news-updates",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Steam Launch",
+              "detail": "Juego completo lanzado a nivel global en Steam con descuento inaugural",
+              "badge": "Ya disponible"
+            },
+            {
+              "label": "Demo v0.3.1",
+              "detail": "Demo archivada con seis temas jugables y mecánicas fundamentales",
+              "badge": "Archivo"
+            },
+            {
+              "label": "Patch Roadmap",
+              "detail": "Planes de parches, nuevos capítulos de historia y niveles adicionales de cartas",
+              "badge": "Hoja de ruta"
+            },
+            {
+              "label": "Crossover Pack",
+              "detail": "Próximas colaboraciones musicales con importantes franquicias de ritmo",
+              "badge": "Anuncio"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre In Falsus",
+      "description": "Respuestas rápidas a las dudas más habituales sobre In Falsus, mecánicas de ritmo, plataformas e integración de cartas.",
+      "items": [
+        {
+          "question": "¿Qué tipo de juego es In Falsus?",
+          "answer": "In Falsus es una aventura de acción rítmica e integración de cartas desarrollada por lowiro para PC. Combina mecánicas de notas de 4K a 6K con construcción de barajas Hex Board y una profunda trama."
+        },
+        {
+          "question": "¿En qué plataformas se puede jugar a In Falsus?",
+          "answer": "In Falsus está disponible oficialmente para PC en Steam. Cuenta con soporte completo para teclado y ratón, además de calibración avanzada de latencia de audio."
+        },
+        {
+          "question": "¿Cómo funciona la integración de cartas en In Falsus?",
+          "answer": "Los jugadores obtienen chips Iota con estadísticas y los engarzan en planos Hex Board. Esto aumenta el poder, la resistencia y las bonificaciones de resonancia para superar canciones difíciles."
+        },
+        {
+          "question": "¿Cuáles son los niveles de dificultad en In Falsus?",
+          "answer": "Dispone de cuatro niveles: Minimal (MIN, 4K), Evolved (EVO, 5K), Ultimate (ULT, 6K) y Forbidden (FBD, 6K+). Los principiantes pueden empezar en MIN y avanzar hacia FBD."
+        },
+        {
+          "question": "¿Existen códigos promocionales o recompensas en In Falsus?",
+          "answer": "In Falsus es un título premium de Steam sin mecánicas gacha ni códigos externos. Todo el contenido, canciones y cartas se desbloquean jugando y superando logros."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para explorar In Falsus?",
+      "description": "Desde tus primeras partidas en el mundo de fantasía oscura hasta el dominio de combos rítmicos y creación de cartas, nuestra wiki comunitaria te ofrece guías gratuitas y detalladas.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Jugar en Steam"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la Wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Tabla de contenidos",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas recomendadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "No hay guías disponibles todavía. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "In Falsus Wiki",
+    "about": "In Falsus Wiki es un portal independiente creado por fans que reúne mecánicas de juego, personajes, creación de cartas, trasfondo y consejos clave para toda la comunidad.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "© 2026 In Falsus Wiki. No está afiliado a lowiro ni a Steam.",
+    "description": "Juego de aventura y acción rítmica de fantasía oscura en Steam desarrollado por lowiro.",
+    "playGame": "Jugar a In Falsus en Steam",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "Canal oficial de YouTube",
+    "vvBuilder": "Planificador de cartas",
+    "beginnerGuide": "Guía para principiantes",
+    "raceGuides": "Personajes",
+    "bossGuides": "Mecánicas",
+    "buildGuide": "Guías",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio"
+  },
+  "release": {
+    "overviewTitle": "In Falsus Release — Fecha, plataformas y parches",
+    "overviewDescription": "Consulta fechas oficiales de lanzamiento, disponibilidad en Steam, especificaciones técnicas, hojas de ruta y notas de actualización de In Falsus por lowiro."
+  },
+  "guide": {
+    "overviewTitle": "In Falsus Guides — Ritmo, creación de cartas y progresión",
+    "overviewDescription": "Domina In Falsus con guías completas sobre notas rítmicas, planos Hex Board, configuración de controles y estrategias musicales."
+  },
+  "access": {
+    "overviewTitle": "In Falsus Access — Steam, demos y requisitos técnicos",
+    "overviewDescription": "Descubre cómo acceder a In Falsus en Steam, instalar versiones demo, calibrar latencia de sonido y configurar tu PC para el máximo rendimiento."
+  },
+  "features": {
+    "overviewTitle": "In Falsus Features — Jugabilidad, mecánicas y Hex Boards",
+    "overviewDescription": "Explora la jugabilidad híbrida de In Falsus con carriles de notas 4K-6K, integración de cartas Iota, fases de combate y progresión."
+  },
+  "community": {
+    "overviewTitle": "In Falsus Community — Historia, personajes y comunidad",
+    "overviewDescription": "Conéctate con la comunidad de In Falsus, profundiza en el trasfondo de los cinco estudiantes protagonistas y comparte estrategias."
+  },
+  "codes": {
+    "overviewTitle": "In Falsus Codes — Recompensas, desbloqueos e información",
+    "overviewDescription": "Guía actualizada sobre códigos promocionales, sistemas de desbloqueo y recompensas dentro de In Falsus de lowiro."
+  }
+}

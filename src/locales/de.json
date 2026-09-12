@@ -1,1 +1,505 @@
-{}
+{
+  "site": {
+    "name": "In Falsus Wiki",
+    "shortName": "In Falsus",
+    "tagline": "Umfassender Rhythmus-Action & Karten-Integrations-Leitfaden",
+    "description": "Erkunde das In Falsus Wiki für Spielanleitungen, Rhythmusmechaniken, Karten-Crafting, Hex-Board-Blueprints, Charakterprofile und PC-Tipps.",
+    "legalNotice": "In Falsus Wiki ist eine unabhängige Fan-Seite und steht in keiner Verbindung zu lowiro oder Steam."
+  },
+  "nav": {
+    "release": "Release",
+    "guide": "Guide",
+    "access": "Access",
+    "features": "Features",
+    "community": "Community",
+    "codes": "Codes"
+  },
+  "home": {
+    "meta": {
+      "title": "In Falsus Wiki — Guides, Rhythmus-Mechaniken & Karten",
+      "description": "Erkunde das In Falsus Wiki für Rhythmusspiel-Mechaniken, Karten-Integrations-Baupläne, Schwierigkeitsgrade, Songlisten, Charakter-Guides und PC-Tipps."
+    },
+    "hero": {
+      "eyebrow": "Dark-Fantasy-Abenteuerspiel",
+      "title": "In Falsus Wiki",
+      "description": "Erkunde das In Falsus Wiki für Gameplay-Guides, Mechaniken, Charaktere, Updates und unverzichtbare Informationen für Spieler.",
+      "stats": [
+        "Gameplay-Guides",
+        "Charakter-Details",
+        "Karten-Crafting",
+        "Neueste Updates"
+      ],
+      "primaryCta": "Anfänger-Guide",
+      "secondaryCta": "Charakterliste",
+      "tertiaryCta": "Spielmechaniken",
+      "videoLabel": "Offizielle Medien"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier beginnen",
+      "title": "Deine In Falsus Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Anfänger-Guide",
+          "description": "Meistere die Rhythmus-Bahnen, Steuerung, Grundlagen der Kartenintegration und frühe Fortschrittstipps in In Falsus."
+        },
+        {
+          "number": "2",
+          "title": "Rhythmus-Noten-Mechaniken",
+          "description": "Lerne das Timing für TAP, HOLD, FIELD-Tracking und gerichtete FLICK-Noten auf jedem Chart zu meistern."
+        },
+        {
+          "number": "3",
+          "title": "Karten-Integration & Crafting",
+          "description": "Kombiniere Iota-Eigenschaften, fülle Hex-Board-Zonen, vermeide Überlastungs-Mali und baue starke Song-Setups."
+        },
+        {
+          "number": "4",
+          "title": "Schwierigkeits-Progression",
+          "description": "Steige reibungslos von 4K Minimal (MIN) über Evolved (EVO), Ultimate (ULT) bis Forbidden (FBD) auf."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Aktuell im Trend",
+      "quickLinks": [
+        "Anfänger-Guide",
+        "Karten-Integration",
+        "Schwierigkeitsgrade",
+        "Songliste"
+      ],
+      "cards": [
+        {
+          "badge": "Anfänger",
+          "title": "Anfänger-Guide",
+          "description": "Alles, was du von deinem ersten Einstieg bis zur Beherrschung von Tastensteuerung und Rhythmusmechaniken benötigst.",
+          "href": "/guide/in-falsus-beginner-guide"
+        },
+        {
+          "badge": "Kernsystem",
+          "title": "Karten-Integrations-Guide",
+          "description": "Vollständige Referenz zum Sockeln von Bauplänen mit Iota-Eigenschaften, Kraftformeln und Malus-Vermeidung.",
+          "href": "/guide/in-falsus-cards-guide"
+        },
+        {
+          "badge": "Mechaniken",
+          "title": "Schwierigkeitsgrade-Guide",
+          "description": "Detaillierte Übersicht über MIN 4K, EVO 5K, ULT 6K und FBD 6K+ Notenbahnen und Bewertungsmaßstäbe.",
+          "href": "/guide/in-falsus-difficulty-guide"
+        },
+        {
+          "badge": "Soundtrack",
+          "title": "Vollständige Songliste",
+          "description": "Durchsuchbare Titeldatenbank mit Komponisten, Crossover-Songs und Chart-Schwierigkeiten.",
+          "href": "/guide/in-falsus-songs-list"
+        },
+        {
+          "badge": "Lore",
+          "title": "Protagonisten & Geschichte",
+          "description": "Hintergründe und Lore für Nia, Mei, Ayame, Iris und Story an ihren fünf Akademien.",
+          "href": "/guide/in-falsus-characters-guide"
+        },
+        {
+          "badge": "Strategie",
+          "title": "Rhythmus & Gameplay-Tipps",
+          "description": "Profi-Tipps für Tastenbelegungen, FIELD-Maus-Tracking und Maximierung der Phasen-Schadensfenster.",
+          "href": "/guide/in-falsus-gameplay-tips"
+        },
+        {
+          "badge": "Technik",
+          "title": "Systemanforderungen",
+          "description": "PC-Hardwarespezifikationen, Audio-Latenz-Optimierung und Anzeigeeinstellungen.",
+          "href": "/guide/in-falsus-system-requirements"
+        },
+        {
+          "badge": "Updates",
+          "title": "Neuigkeiten & Patchnotizen",
+          "description": "Offizielle lowiro-Ankündigungen, Veröffentlichungsdetails, Demo-Archive und Update-Zeitpläne.",
+          "href": "/guide/in-falsus-news-updates"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist In Falsus?",
+      "paragraphs": [
+        "In Falsus ist ein stilvolles Rhythmus- und Karten-Integrationsabenteuer, entwickelt von lowiro. Führe fünf Oberschüler durch eine geheimnisvolle Welt unter einem langen Schatten, meistere dynamische musikalische Auseinandersetzungen und lüfte tiefe narrative Geheimnisse.",
+        "Verbinde blitzschnelles Tastatur- und Maus-Rhythmus-Gameplay mit strategischem Deckbau. Schmiede Iota-Eigenschaften auf Hex-Board-Bauplänen, bewältige vier unterschiedliche Schwierigkeitsstufen von Minimal bis Forbidden und meistere komplexe Mechaniken wie TAP, HOLD, FIELD-Tracking und gerichtete FLICK-Noten."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "lowiro"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Genre",
+          "value": "Rhythmus / Card ADV"
+        },
+        {
+          "label": "Schwierigkeitsstufen",
+          "value": "4 (MIN bis FBD)"
+        },
+        {
+          "label": "Protagonisten",
+          "value": "5 Schüler"
+        },
+        {
+          "label": "Engine",
+          "value": "Unity"
+        }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Entdecke In Falsus",
+      "description": "Tauche ein in detaillierte Leitfäden zu Rhythmusmechaniken, Kartenbauplänen, Schwierigkeitsgraden, Charakteren und Systemtipps.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "In Falsus Beginner Guide",
+          "description": "Ein Einsteiger-Leitfaden, der den Kern-Gameplay-Loop, Rhythmusmechaniken, das Kartensystem, Crafting-Grundlagen und frühe Fortschrittstipps abdeckt.",
+          "href": "/guide/in-falsus-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Konfiguriere Tastaturbelegungen und kalibriere den Audio-Offset für präzises Rhythmus-Timing"
+            },
+            {
+              "label": "2",
+              "detail": "Lerne Kern-Noteninteraktionen: TAP, HOLD, FIELD-Cursor-Tracking und FLICK-Swipes"
+            },
+            {
+              "label": "3",
+              "detail": "Sockle erste Iota-Stat-Chips in Hex-Board-Blueprints zur Steigerung der Kampfkraft"
+            },
+            {
+              "label": "4",
+              "detail": "Starte auf MIN (Minimal 4K) und schalte schrittweise höhere Schwierigkeitsgrade frei"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "In Falsus Cards Guide",
+          "description": "Erklärt das Kartensystem, Karten-Crafting, Baupläne, Materialien, Ausrüstungswahl und wie Spieler Builds für verschiedene Songs optimieren.",
+          "href": "/guide/in-falsus-cards-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Blueprints",
+              "detail": "Hex-Board-Layouts, die Stat-Zonen und Eigenschafts-Slot-Kapazitäten definieren"
+            },
+            {
+              "label": "Iota",
+              "detail": "Sockelbare Stat-Chips, die rohe Kraft, Verteidigung und Kampfeigenschaften verleihen"
+            },
+            {
+              "label": "Overload",
+              "detail": "Kapazitätsgrenzen-Management zur Vermeidung von Phasen-Malus-Abzügen während der Charts"
+            },
+            {
+              "label": "Resonance",
+              "detail": "Harmonie-Boni zwischen verwandten Kartenelementen für verbesserte Punkteausbeute"
+            },
+            {
+              "label": "Traits",
+              "detail": "Spezielle passive Fähigkeiten wie Schadensreduktion, Timing-Toleranz und Score-Boosts"
+            },
+            {
+              "label": "Resolve",
+              "detail": "Überlebens- und Erholungsstatistiken zur Stabilisierung von Noten-Misses bei harten Songs"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "In Falsus Difficulty Guide",
+          "description": "Stellt die vier Schwierigkeitsgrade, Gameplay-Unterschiede und Empfehlungen für Anfänger und erfahrene Rhythmusspieler vor.",
+          "href": "/guide/in-falsus-difficulty-guide",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "FBD (Forbidden) Tier · 6K+ breite Noten, extreme Dichte, höchste Präzisionsherausforderung"
+            },
+            {
+              "label": "A",
+              "detail": "ULT (Ultimate) Tier · 6K agile Dreifinger-Rhythmusbewegung und komplexe Cross-Lanes"
+            },
+            {
+              "label": "B",
+              "detail": "EVO (Evolved) Tier · 5K Mittellinien-Hybrid mit schnellen Richtungs-Flicks"
+            },
+            {
+              "label": "C",
+              "detail": "MIN (Minimal) Tier · 4K Standard-Layout, ideal für Anfänger und Song-Einprägung"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "In Falsus Songs List",
+          "description": "Bietet eine durchsuchbare Liste aller verfügbaren Songs, Komponisten und musikbezogenen Informationen des gesamten Soundtracks.",
+          "href": "/guide/in-falsus-songs-list",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Soundtrack",
+              "detail": "Vielfältige elektronische, orchestrale und vokale Titel renommierter Künstler"
+            },
+            {
+              "label": "Cryogenic",
+              "detail": "Ikonischer Titelsong, bekannt aus Rhythmusspiel-Crossovern und Kollaborationen"
+            },
+            {
+              "label": "Chart Levels",
+              "detail": "Numerische Einstufungen von Stufe 1 bis 15+ zur Orientierung des spielerischen Könnens"
+            },
+            {
+              "label": "Story Tracks",
+              "detail": "Exklusive Kompositionen, die an Schlüsselmomente der Kampagne gekoppelt sind"
+            },
+            {
+              "label": "Boss Themes",
+              "detail": "Hochintensive Finalsongs mit schnellen Phasenwechseln und wechselnden Notengeschwindigkeiten"
+            },
+            {
+              "label": "Score Grades",
+              "detail": "Bewertungsränge von D bis Pure EX basierend auf Präzision und Kombos"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "In Falsus Characters Guide",
+          "description": "Stellt die fünf Protagonisten, ihre Rollen, Handlungsverbindungen und Hintergründe an ihren jeweiligen Akademien vor.",
+          "href": "/guide/in-falsus-characters-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Nia Cana",
+              "detail": "Akie-Oberschülerin, die hellen Optimismus gegen mysteriöse Schatten abwägt"
+            },
+            {
+              "label": "Mei Alder",
+              "detail": "Engagierte Akie-Künstlerin, getrieben von unerschütterlicher künstlerischer Pflicht"
+            },
+            {
+              "label": "Ayame",
+              "detail": "Disziplinierte Performerin, die Tradition mit technischer Rhythmus-Exzellenz vereint"
+            },
+            {
+              "label": "Iris Leal",
+              "detail": "Scharfsinnige Strategin, spezialisiert auf Hex-Board-Analysen und Taktik"
+            },
+            {
+              "label": "Story",
+              "detail": "Zentrale narrative Figur, deren Vergangenheit mit den rhythmischen Anomalien verknüpft ist"
+            },
+            {
+              "label": "Academies",
+              "detail": "Fünf verschiedene Bildungsinstitutionen, die unterschiedliche Spielstile und Lore prägen"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "In Falsus Gameplay Tips",
+          "description": "Sammelt praktische Spieltipps einschließlich Steuerungsratschlägen, Methoden zur Rhythmusverbesserung und Strategien für schwere Passagen.",
+          "href": "/guide/in-falsus-gameplay-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Keybinds",
+              "detail": "Ergonomische Trennung der 4K/6K-Tasten zur Verringerung mechanischer Belastung"
+            },
+            {
+              "label": "Cursor",
+              "detail": "Lockerer Mausgriff für flüssige Übergänge in FIELD-Tracking-Zonen"
+            },
+            {
+              "label": "Flick Speed",
+              "detail": "Kurze, präzise Wischbewegungen anstelle hektischer Gesten für verlässliche Registrierung"
+            },
+            {
+              "label": "Timing",
+              "detail": "Fokussierung auf das Audio-Feedback zur Stabilisierung kritischer Pure-Treffer"
+            },
+            {
+              "label": "Penalties",
+              "detail": "Deck-Build-Anpassungen zur Minimierung von Ausdauerabzügen bei verpassten Noten"
+            },
+            {
+              "label": "Resonance",
+              "detail": "Aktivierung von Resonanzfenstern für spürbare Schadens- und Punktevervielfacher"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "In Falsus System Requirements",
+          "description": "Zeigt minimale PC-Anforderungen, unterstützte Plattformen, Sprachen und technische Details für optimale Rhythmus-Performance.",
+          "href": "/guide/in-falsus-system-requirements",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Windows 10 / Windows 11 (64-Bit-Betriebssystem erforderlich)"
+            },
+            {
+              "label": "Processor",
+              "detail": "Intel Core i5-6400 / AMD Ryzen 3 1200 oder gleichwertig"
+            },
+            {
+              "label": "Memory",
+              "detail": "8 GB RAM empfohlen für flüssiges Chart-Rendering und kurze Ladezeiten"
+            },
+            {
+              "label": "Graphics",
+              "detail": "NVIDIA GeForce GTX 960 / AMD Radeon R9 280 für stabile 60+ FPS"
+            },
+            {
+              "label": "Audio",
+              "detail": "ASIO / Low-Latency-Audiotreiber dringend für minimale Eingabeverzögerung empfohlen"
+            },
+            {
+              "label": "Storage",
+              "detail": "10 GB verfügbarer Speicherplatz (SSD für schnellere Song-Ladezeiten empfohlen)"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "In Falsus News & Updates",
+          "description": "Zeigt offizielle Ankündigungen, Veröffentlichungsinformationen, Demo-Updates, Events und Entwickler-News von lowiro.",
+          "href": "/guide/in-falsus-news-updates",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Steam Launch",
+              "detail": "Vollversion weltweit auf Steam mit Release-Rabatt veröffentlicht",
+              "badge": "Jetzt verfügbar"
+            },
+            {
+              "label": "Demo v0.3.1",
+              "detail": "Archivierte Launch-Demo mit sechs spielbaren Songs und Basismechaniken",
+              "badge": "Archiv"
+            },
+            {
+              "label": "Patch Roadmap",
+              "detail": "Geplante Feature-Updates, zusätzliche Story-Kapitel und neue Chart-Level",
+              "badge": "Roadmap"
+            },
+            {
+              "label": "Crossover Pack",
+              "detail": "Zukünftige Musik-Kooperationen mit führenden Rhythm-Game-Franchises",
+              "badge": "Ankündigung"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen zu In Falsus",
+      "description": "Schnelle Antworten auf die wichtigsten Fragen zu In Falsus, Gameplay-Mechaniken, Plattformen und Kartenintegration.",
+      "items": [
+        {
+          "question": "Was für ein Spiel ist In Falsus?",
+          "answer": "In Falsus ist ein Rhythmus-Action- und Karten-Integrationsabenteuerspiel von lowiro für PC. Es verbindet dynamisches 4K-bis-6K-Notenspiel mit strategischem Hex-Board-Deckbau und tiefgründiger Story."
+        },
+        {
+          "question": "Auf welchen Plattformen ist In Falsus spielbar?",
+          "answer": "In Falsus ist offiziell für PC auf Steam verfügbar. Es bietet umfassende Unterstützung für Tastatur- und Maussteuerung sowie Audio-Latenzkalibrierung."
+        },
+        {
+          "question": "Wie funktioniert die Karten-Integration in In Falsus?",
+          "answer": "Spieler erhalten Iota-Chips mit Attributen und sockeln diese in Hex-Board-Baupläne. Dadurch steigern sie Kraft, Abwehr und Resonanzboni, um schwere Songs und Phasen-Bosse erfolgreich abzuschließen."
+        },
+        {
+          "question": "Welche Schwierigkeitsstufen gibt es in In Falsus?",
+          "answer": "Es gibt vier Schwierigkeitsstufen: Minimal (MIN, 4K), Evolved (EVO, 5K), Ultimate (ULT, 6K) und Forbidden (FBD, 6K+). Anfänger starten auf MIN, während Veteranen FBD meistern können."
+        },
+        {
+          "question": "Gibt es Promo-Codes oder Belohnungen in In Falsus?",
+          "answer": "In Falsus ist ein vollwertiges Steam-Kaufspiel ohne Gacha-Codes. Sämtliche Karten, Songs und Anpassungen werden rein über spielerischen Fortschritt und Erfolge freigeschaltet."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, In Falsus zu erkunden?",
+      "description": "Von deinen ersten Schritten in der Dark-Fantasy-Welt bis hin zu meisterhaften Rhythmus-Kombos und Karten-Crafting bietet unser Community-Wiki kostenlose, umfassende Guides.",
+      "primary": "Anfänger-Guide lesen",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes anzeigen",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Artikel",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Weiterlesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "In Falsus Wiki",
+    "about": "In Falsus Wiki ist ein unabhängiges Fan-Guide-Portal für Gameplay-Mechaniken, Charaktere, Karten-Crafting, Lore und essenzielles Spielwissen für neue und erfahrene Spieler.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "© 2026 In Falsus Wiki. Nicht verbunden mit lowiro oder Steam.",
+    "description": "Dark-Fantasy-Rhythmus-Action-Abenteuerspiel auf Steam, entwickelt von lowiro.",
+    "playGame": "In Falsus auf Steam spielen",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizieller YouTube-Kanal",
+    "vvBuilder": "Karten-Crafting-Planer",
+    "beginnerGuide": "Anfänger-Guide",
+    "raceGuides": "Charaktere",
+    "bossGuides": "Mechaniken",
+    "buildGuide": "Guides",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "release": {
+    "overviewTitle": "In Falsus Release — Datum, Plattformen & Updates",
+    "overviewDescription": "Informiere dich über offizielle Release-Details, Steam-Verfügbarkeit, Systemanforderungen, Versions-Roadmaps und Updates für In Falsus von lowiro."
+  },
+  "guide": {
+    "overviewTitle": "In Falsus Guides — Rhythmus, Karten-Crafting & Fortschritt",
+    "overviewDescription": "Meistere In Falsus mit umfassenden Guides zu Rhythmus-Noten-Mechaniken, Hex-Board-Karten-Crafting, Steuerungen und Song-Strategien."
+  },
+  "access": {
+    "overviewTitle": "In Falsus Zugang — Steam, Demo & Systemanforderungen",
+    "overviewDescription": "Erfahre, wie du auf In Falsus auf Steam zugreifst, Demo-Versionen installierst, Audio-Latenz kalibrierst und deine PC-Hardware optimierst."
+  },
+  "features": {
+    "overviewTitle": "In Falsus Features — Gameplay, Mechaniken & Hex Boards",
+    "overviewDescription": "Erkunde das einzigartige Hybrid-Gameplay von In Falsus mit 4K-6K-Notenbahnen, Iota-Kartenintegration, Phasen-Kämpfen und Progression."
+  },
+  "community": {
+    "overviewTitle": "In Falsus Community — Lore, Charaktere & Diskussionsforen",
+    "overviewDescription": "Vernetze dich mit der In Falsus Community, erforsche Charakter-Hintergründe der fünf Oberschüler und teile Strategien."
+  },
+  "codes": {
+    "overviewTitle": "In Falsus Codes — Belohnungen, Freischaltungen & Promo-Info",
+    "overviewDescription": "Aktuelle Übersicht über Promo-Codes, Freischaltungen und Belohnungssysteme in In Falsus von lowiro."
+  }
+}
