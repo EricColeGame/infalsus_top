@@ -6,7 +6,14 @@
     "description": "Complete In Falsus Wiki with gameplay guides, character details, card crafting, mechanics, and essential resources for players.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "guide": "Guide",
+    "access": "Access",
+    "features": "Features",
+    "community": "Community",
+    "codes": "Codes"
+  },
   "home": {
     "meta": {
       "title": "In Falsus Wiki — Guides, Rhythm Mechanics & Cards",
@@ -470,5 +477,29 @@
     "buildGuide": "Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "release": {
+    "overviewTitle": "In Falsus Release Dates & Updates",
+    "overviewDescription": "Stay updated with In Falsus official release schedules, beta playtests, Steam demo announcements, and patch notes."
+  },
+  "guide": {
+    "overviewTitle": "In Falsus Beginner Guides & Walkthroughs",
+    "overviewDescription": "Master In Falsus mechanics with comprehensive beginner guides, note lane breakdowns, difficulty tiers, and story walkthroughs."
+  },
+  "access": {
+    "overviewTitle": "In Falsus Platforms & System Access",
+    "overviewDescription": "Find out how to play In Falsus across platforms including Steam PC, pricing details, free demo access, and system requirements."
+  },
+  "features": {
+    "overviewTitle": "In Falsus Gameplay Features & Systems",
+    "overviewDescription": "Explore core In Falsus features including the 4K-6K+ hybrid rhythm system, Iota card integration, hex crafting, and soundtrack."
+  },
+  "community": {
+    "overviewTitle": "In Falsus Community & Social Hub",
+    "overviewDescription": "Join the official In Falsus player community on Discord, Reddit, and YouTube for discussion, reviews, and community creations."
+  },
+  "codes": {
+    "overviewTitle": "In Falsus Codes & Rewards",
+    "overviewDescription": "Discover the latest active promo codes, redeem steps, and free in-game rewards for In Falsus."
   }
 }
