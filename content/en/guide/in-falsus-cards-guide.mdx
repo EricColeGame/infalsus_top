@@ -1,0 +1,115 @@
+export const metadata = {
+  title: "In Falsus Cards Explained: Crafting, Remembrance, Potency, and the Iota Loop",
+  description: "A complete guide to In Falsus cards: how Blueprints, Iota Potency, penalties, Trait tiles, and Remembrance shape every crafted build.",
+  category: "features",
+  date: "2026-10-16",
+}
+
+Every card in In Falsus is crafted, not drawn: you slot Iota pieces into a character Blueprint, keep your penalties at zero, and finalize the board into a permanent card. That single design choice reshapes how you progress — instead of chasing a lucky pull, you farm materials and rebuild a better version of the same character. If you want your In Falsus cards to carry you through harder Dives, three things matter most: Potency, penalties, and the Iota loop that funds both. Below, we break down how In Falsus cards travel from raw Iota to battle-ready squad members, and what the Remembrance label on every encounter screen actually means.
+
+## The Core Loop: How In Falsus Cards Get Stronger
+
+The game's economy is a closed circle. You clear Dives to earn Iota, integrate that Iota into Blueprints to craft stronger cards, then take those cards into harder Encounters that pay out better Iota. Every step feeds the next, which is why a weak card is rarely a dead end — it is usually a signal that your Iota pieces need an upgrade.
+
+The hub's Integration panel tracks all three crafting resources in one place. In the demo footage, that panel read 2 Blueprints, 2 Cards, and 234 Iota, sitting beside the Scenario chapter titled "The First Lie."
+
+| Resource | What it is | Where it comes from |
+|---|---|---|
+| Blueprint | A character-specific board you build on, with a Tier and an Iota Limit | Progression and hub unlocks |
+| Iota | Individual pieces you spend, each carrying a Potency value | Dive clears, tagged by source |
+| Card | The finalized build that joins your collection and fights in Encounters | Confirming a completed Blueprint |
+
+One important quirk, reported from demo footage: crafting the same Blueprint twice produces two separate copies rather than an upgrade. The collection shown in that footage held two Mei: 4AM cards with different stat lines (2,184/1,911 and 2,788/2,439) sitting next to Nia: Path to Reality (4,730/946). Stronger Iota in, stronger card out — rebuilding is the progression system.
+
+## Crafting In Falsus Cards, Step by Step
+
+The flow runs from the hub's Integration menu to a finished card in your collection. Here is the full sequence as it appears in demo-version footage, so expect tuning differences in the release build.
+
+| Step | Action | What to watch |
+|---|---|---|
+| 1 | Open the Integration panel from the hub | Confirms your Blueprint, Card, and Iota counts |
+| 2 | Choose a Blueprint | Its Tier, Iota Limit (and Max), and base stats — Mei: 4AM reads Tier 1, Iota Limit 4 (Max: 6), 1,800 Power, 4,200 Defense |
+| 3 | Drag Iota onto the colored Zones | Zones only pay out once their fill counter completes (3/3, 0/6…) |
+| 4 | Monitor the Penalties panel | Overload, Out of Bounds, Overlap, Disconnect, and Falsehood |
+| 5 | Cover Trait tiles | Passives such as Inner Rigor++ ("During this Card's Phase: Total DEF +66%") |
+| 6 | Verify 100% efficiency | Four of four Iota used, zero penalties |
+| 7 | Finalize the card | Review Available Traits across tiers I–III, then confirm Integrate |
+
+A few details are easy to miss. The grid Preview stays locked until you commit, which makes the Integrate button the point of no return — you cannot scout the board layout first. And when the first 110-potency piece lands in a 3/3 zone, the side panel immediately updates: Iota Used 1/4, Average Potency 110, Potency Multiplier ×1.10, with the zone tooltip flashing +1,000 Power.
+
+## Potency Multiplier and Penalties: The Math Behind Better Cards
+
+Potency is the single biggest lever on a finished card. Your placed Iota's Average Potency is divided by 100, and that figure multiplies every stat the filled Zones grant. A single 110-potency piece sets the multiplier to ×1.10; the demo build finishes at ×1.74, which turns 1,600 base Power into 2,788.
+
+| Average Potency | Multiplier | Payout on a zone worth 1,000 base Power |
+|---|---|---|
+| 100 | ×1.00 | 1,000 |
+| 110 | ×1.10 | 1,100 |
+| 150 | ×1.50 | 1,500 |
+| 174 | ×1.74 | 1,740 |
+
+The table above simply applies the demo's stated formula to a sample payout — the point is that Potency compounds across every zone you fill, so a handful of high-Potency pieces beats a full board of weak ones.
+
+Penalties work in the opposite direction, permanently shrinking the finished card. In demo footage, placing a fifth piece against an Iota Limit of 4 triggered Overload 1 and dropped efficiency from 100% to 89%. Because that reduction is baked into the final stats, integrating at 89% is a mistake you cannot undo.
+
+| Penalty | What it flags | Notes from footage |
+|---|---|---|
+| Overload | More Iota placed than the Blueprint's Iota Limit allows | 5/4 pieces cut efficiency to 89% |
+| Out of Bounds | Pieces placed outside legal grid space | Listed on the panel; exact reduction not shown |
+| Overlap | Two pieces occupying the same hex | Listed on the panel; exact reduction not shown |
+| Disconnect | Filled zones that do not connect properly | Listed on the panel; exact reduction not shown |
+| Falsehood | A rule violation tracked by the panel | Listed on the panel; exact reduction not shown |
+
+Player experience is consistent on one thing: Total Penalties 0 equals 100% efficiency, and that should be your target every single time.
+
+## What Does the Remembrance Label Mean?
+
+Open any Encounter's loadout screen and the header shows two fields side by side: a Difficulty Rating and a Remembrance. The Practice Dive, at Difficulty Rating 100, reads "1 | 10276/8/27" — a running number plus a full in-fiction calendar date.
+
+That date is not decorative. The hub's Scenario panel stamps chapter 1, "The First Lie," as Month 8, Day 28 in the same calendar, year 10276. A Remembrance therefore pins each encounter to a concrete moment in the story timeline, and the number before the date appears to count those moments in order.
+
+| Header field | Example value | What it tells you |
+|---|---|---|
+| Difficulty Rating | 100 | How demanding the encounter is |
+| Remembrance | 1 \| 10276/8/27 | Where the fight sits on the Scenario calendar |
+
+Community reports are careful to flag one caveat: the demo never defines the term beyond this label. Treat Remembrance as an observation from footage rather than a confirmed mechanic until the release build says otherwise.
+
+## Using Your Cards in Encounters and Closing the Iota Loop
+
+In an Encounter, your five card slots line the side rails and activate in order. Each card owns a Phase of the song, and that is when its stats and traits apply — which is exactly why Trait tiles matter so much. Inner Rigor++ holds the line only while its card's phase is active, so a defensive trait on an early-phase card is wasted if the heavy incoming damage lands later.
+
+Hitting notes fires at the enemy while their hits land on your judgement line, and the Encounter Score under the main score climbs as you out-damage them. After the song, the result banner expands into a full breakdown.
+
+| Result metric | Demo reading | What it shows |
+|---|---|---|
+| Offensive Rate | 73,172 | Your overall attacking output |
+| Damage Dealt | 30,000 | Actual damage pushed onto the opponent |
+| Defensive Rate | 31,932 | Your overall defensive strength |
+| Damage Received | 2,484 | Damage that got through |
+| Encounter Score | 000'233'656 (CONNECTED) | Performance rating for the run |
+
+Clearing the Dive pays out new Iota on the result screen. One demo clear dropped five pieces, each tagged by source — some from Rank, some from Song Length. Drop counts vary between runs, so efficient farming is the reliable path forward. If you want a deeper look at the game itself, the [lowiro studio site](https://lowiro.com/) covers the project and its official showcases.
+
+## Common Mistakes and Progression Tips
+
+- **Never integrate below 100% efficiency.** A card built at 89% is permanently weaker than the same board built cleanly.
+- **Check the Iota Limit before you commit.** The preview grid stays locked, so plan your placement from the panel numbers.
+- **Rebuild instead of hoping for upgrades.** Duplicate crafts are separate cards, so treat each finished card as a snapshot of the Iota you spent.
+- **Prioritize Potency over volume.** Four high-Potency pieces can outperform a crowded, penalty-ridden board.
+- **Match traits to phases.** A phase-locked defensive passive is only as good as the phase it covers.
+- **Farm encounters that drop the tags you need.** Rank and Song Length drops fund different parts of your crafting cycle.
+
+## FAQ
+
+**What are In Falsus cards, and how do you get them?**
+In Falsus cards are crafted rather than pulled. You choose a character Blueprint, integrate Iota pieces onto its colored Zones, keep penalties at zero, and finalize the build. The finished card joins your collection and takes one of five slots in an Encounter.
+
+**What is Remembrance in In Falsus?**
+Remembrance is the story-calendar label printed beside the Difficulty Rating on every encounter's loadout screen — for example, "1 | 10276/8/27" on the Practice Dive. It matches the calendar used by the Scenario chapters, which suggests each encounter is pinned to a specific moment in the story.
+
+**How does Iota Potency affect crafting?**
+Your placed Iota's Average Potency divided by 100 becomes the Potency Multiplier applied to every stat your filled Zones grant. Higher-Potency pieces raise the multiplier, and the multiplier lifts the finished card's Power and Defense.
+
+**How do you get more Iota?**
+Clear Dives. The result screen lists each drop with a source tag such as Rank or Song Length. Because drop counts vary between runs, repeating encounters you can clear reliably is the most dependable way to keep crafting.

@@ -1,0 +1,115 @@
+export const metadata = {
+  title: "In-Falsus-Karten erklärt: Crafting, Remembrance, Potenz und der Iota-Loop",
+  description: "Ein vollständiger Leitfaden zu In-Falsus-Karten: Wie Blaupausen, Iota-Potenz, Strafen, Trait-Kacheln und Remembrance jeden hergestellten Build prägen.",
+  category: "features",
+  date: "2026-10-16",
+}
+
+Jede Karte in In Falsus wird hergestellt, nicht gezogen: Du steckst Iota-Teile in eine Charakter-Blaupause, hältst deine Strafen bei null und finalisierst das Board zu einer permanenten Karte. Diese einzige Designentscheidung verändert deinen Fortschritt — statt einem glücklichen Pull nachzujagen, farmst du Materialien und baust eine bessere Version desselben Charakters neu auf. Wenn deine In-Falsus-Karten dich durch schwierigere Dives tragen sollen, sind drei Dinge am wichtigsten: Potenz, Strafen und der Iota-Loop, der beides finanziert. Im Folgenden schlüsseln wir auf, wie In-Falsus-Karten von rohem Iota zu kampfbereiten Truppenmitgliedern werden und was das Remembrance-Label auf jedem Encounter-Bildschirm tatsächlich bedeutet.
+
+## Der Kern-Loop: Wie In-Falsus-Karten stärker werden
+
+Die Wirtschaft des Spiels ist ein geschlossener Kreis. Du schließt Dives ab, um Iota zu verdienen, integrierst dieses Iota in Blaupausen, um stärkere Karten herzustellen, und nimmst diese Karten dann mit in schwierigere Encounters, die besseres Iota einbringen. Jeder Schritt speist den nächsten, weshalb eine schwache Karte selten eine Sackgasse ist — sie ist meist ein Signal, dass deine Iota-Teile ein Upgrade brauchen.
+
+Das Integrations-Panel im Hub verfolgt alle drei Crafting-Ressourcen an einem Ort. Im Demo-Material zeigte dieses Panel 2 Blaupausen, 2 Karten und 234 Iota, direkt neben dem Szenario-Kapitel mit dem Titel „Die erste Lüge“.
+
+| Ressource | Was sie ist | Woher sie kommt |
+|---|---|---|
+| Blaupause | Ein charakterspezifisches Board, auf dem du baust, mit einem Tier und einem Iota-Limit | Fortschritt und Hub-Freischaltungen |
+| Iota | Einzelne Teile, die du ausgibst, jedes mit einem Potenzwert | Dive-Abschlüsse, nach Quelle markiert |
+| Karte | Der finalisierte Build, der deiner Sammlung beitritt und in Encounters kämpft | Bestätigen einer abgeschlossenen Blaupause |
+
+Eine wichtige Eigenheit, die aus Demo-Material berichtet wird: Dieselbe Blaupause zweimal herzustellen, erzeugt zwei separate Kopien statt eines Upgrades. Die in diesem Material gezeigte Sammlung enthielt zwei Mei: 4AM-Karten mit unterschiedlichen Statuswerten (2.184/1.911 und 2.788/2.439) neben Nia: Path to Reality (4.730/946). Stärkeres Iota rein, stärkere Karte raus — Neuaufbau ist das Fortschrittssystem.
+
+## In-Falsus-Karten herstellen, Schritt für Schritt
+
+Der Ablauf führt vom Integrationsmenü im Hub bis zu einer fertigen Karte in deiner Sammlung. Hier ist die vollständige Sequenz, wie sie im Demo-Material erscheint, also rechne mit Anpassungsunterschieden in der Release-Version.
+
+| Schritt | Aktion | Worauf du achten solltest |
+|---|---|---|
+| 1 | Öffne das Integrations-Panel vom Hub aus | Bestätigt deine Blaupausen-, Karten- und Iota-Anzahl |
+| 2 | Wähle eine Blaupause | Ihr Tier, Iota-Limit (und Max) sowie Basiswerte — Mei: 4AM zeigt Tier 1, Iota-Limit 4 (Max: 6), 1.800 Power, 4.200 Verteidigung |
+| 3 | Ziehe Iota auf die farbigen Zonen | Zonen zahlen erst aus, wenn ihr Füllzähler vollständig ist (3/3, 0/6…) |
+| 4 | Beobachte das Strafen-Panel | Überlastung, Außerhalb des Bereichs, Überlappung, Trennung und Falschheit |
+| 5 | Decke Trait-Kacheln ab | Passivfähigkeiten wie Inner Rigor++ („Während der Phase dieser Karte: Gesamtverteidigung +66 %“) |
+| 6 | Überprüfe 100 % Effizienz | Vier von vier Iota verwendet, null Strafen |
+| 7 | Finalisiere die Karte | Überprüfe Verfügbare Traits über die Tiers I–III, dann bestätige Integrieren |
+
+Ein paar Details sind leicht zu übersehen. Die Grid-Vorschau bleibt gesperrt, bis du dich festlegst, was den Integrieren-Button zum Punkt ohne Wiederkehr macht — du kannst das Board-Layout nicht vorher auskundschaften. Und wenn das erste Teil mit 110 Potenz in einer 3/3-Zone landet, aktualisiert sich das Seitenpanel sofort: Iota verwendet 1/4, Durchschnittliche Potenz 110, Potenz-Multiplikator ×1,10, während der Zonen-Tooltip +1.000 Power aufblinkt.
+
+## Potenz-Multiplikator und Strafen: Die Mathematik hinter besseren Karten
+
+Potenz ist der größte Hebel bei einer fertigen Karte. Die durchschnittliche Potenz deiner platzierten Iota wird durch 100 geteilt, und dieser Wert multipliziert jeden Statuswert, den die gefüllten Zonen gewähren. Ein einzelnes Teil mit 110 Potenz setzt den Multiplikator auf ×1,10; der Demo-Build endet bei ×1,74, was 1.600 Basis-Power in 2.788 verwandelt.
+
+| Durchschnittliche Potenz | Multiplikator | Auszahlung auf einer Zone mit 1.000 Basis-Power |
+|---|---|---|
+| 100 | ×1,00 | 1.000 |
+| 110 | ×1,10 | 1.100 |
+| 150 | ×1,50 | 1.500 |
+| 174 | ×1,74 | 1.740 |
+
+Die obige Tabelle wendet einfach die im Demo genannte Formel auf eine Beispielauszahlung an — der Punkt ist, dass sich Potenz über jede Zone, die du füllst, kumuliert, sodass eine Handvoll Teile mit hoher Potenz ein volles Board aus schwachen Teilen schlägt.
+
+Strafen wirken in die entgegengesetzte Richtung und verkleinern die fertige Karte dauerhaft. Im Demo-Material löste das Platzieren eines fünften Teils gegen ein Iota-Limit von 4 Überlastung 1 aus und senkte die Effizienz von 100 % auf 89 %. Da diese Reduktion in die finalen Werte eingerechnet wird, ist das Integrieren bei 89 % ein Fehler, den du nicht rückgängig machen kannst.
+
+| Strafe | Was sie markiert | Hinweise aus dem Material |
+|---|---|---|
+| Überlastung | Mehr Iota platziert, als das Iota-Limit der Blaupause erlaubt | 5/4 Teile senkten die Effizienz auf 89 % |
+| Außerhalb des Bereichs | Teile außerhalb des legalen Grid-Bereichs platziert | Im Panel aufgeführt; genaue Reduktion nicht gezeigt |
+| Überlappung | Zwei Teile belegen dasselbe Hex | Im Panel aufgeführt; genaue Reduktion nicht gezeigt |
+| Trennung | Gefüllte Zonen, die nicht richtig verbunden sind | Im Panel aufgeführt; genaue Reduktion nicht gezeigt |
+| Falschheit | Ein vom Panel verfolgter Regelverstoß | Im Panel aufgeführt; genaue Reduktion nicht gezeigt |
+
+Die Spielererfahrung ist sich in einem Punkt einig: Gesamtstrafen 0 entspricht 100 % Effizienz, und das sollte jedes Mal dein Ziel sein.
+
+## Was bedeutet das Remembrance-Label?
+
+Öffne den Loadout-Bildschirm eines beliebigen Encounters, und die Kopfzeile zeigt zwei Felder nebeneinander: einen Schwierigkeitsgrad und ein Remembrance. Der Übungs-Dive mit Schwierigkeitsgrad 100 zeigt „1 | 10276/8/27“ — eine laufende Nummer plus ein vollständiges In-Fiction-Kalenderdatum.
+
+Dieses Datum ist nicht dekorativ. Das Szenario-Panel im Hub versieht Kapitel 1, „Die erste Lüge“, mit Monat 8, Tag 28 im selben Kalender, Jahr 10276. Ein Remembrance verankert somit jeden Encounter an einem konkreten Moment in der Story-Zeitleiste, und die Nummer vor dem Datum scheint diese Momente der Reihe nach zu zählen.
+
+| Kopfzeilenfeld | Beispielwert | Was es dir sagt |
+|---|---|---|
+| Schwierigkeitsgrad | 100 | Wie anspruchsvoll der Encounter ist |
+| Remembrance | 1 \| 10276/8/27 | Wo der Kampf im Szenario-Kalender steht |
+
+Community-Berichte weisen sorgfältig auf einen Vorbehalt hin: Die Demo definiert den Begriff über dieses Label hinaus nie. Behandle Remembrance als Beobachtung aus dem Material und nicht als bestätigte Mechanik, bis die Release-Version etwas anderes sagt.
+
+## Deine Karten in Encounters verwenden und den Iota-Loop schließen
+
+In einem Encounter reihen sich deine fünf Kartenplätze an den Seitenschienen auf und aktivieren sich der Reihe nach. Jede Karte besitzt eine Phase des Songs, und dann gelten ihre Werte und Traits — genau deshalb sind Trait-Kacheln so wichtig. Inner Rigor++ hält die Linie nur, solange die Phase seiner Karte aktiv ist, also ist ein defensiver Trait auf einer Karte in einer frühen Phase verschwendet, wenn der schwere eingehende Schaden später landet.
+
+Das Treffen von Noten feuert auf den Gegner, während ihre Treffer auf deiner Urteilslinie landen, und der Encounter-Score unter der Hauptpunktzahl steigt, wenn du mehr Schaden austeilst als sie. Nach dem Song erweitert sich das Ergebnisbanner zu einer vollständigen Aufschlüsselung.
+
+| Ergebniswert | Demo-Anzeige | Was er zeigt |
+|---|---|---|
+| Offensivrate | 73.172 | Deine gesamte Angriffsleistung |
+| Verursachter Schaden | 30.000 | Tatsächlicher Schaden, der dem Gegner zugefügt wurde |
+| Defensivrate | 31.932 | Deine gesamte Verteidigungsstärke |
+| Erhaltener Schaden | 2.484 | Schaden, der durchkam |
+| Encounter-Score | 000'233'656 (VERBUNDEN) | Leistungsbewertung für den Durchlauf |
+
+Das Abschließen des Dives zahlt auf dem Ergebnisbildschirm neues Iota aus. Ein Demo-Abschluss ließ fünf Teile fallen, jedes nach Quelle markiert — einige von Rang, einige von Songlänge. Die Drop-Anzahlen variieren zwischen den Durchläufen, daher ist effizientes Farmen der zuverlässige Weg nach vorn. Wenn du einen tieferen Blick auf das Spiel selbst werfen möchtest, deckt die [lowiro-Studio-Website](https://lowiro.com/) das Projekt und seine offiziellen Präsentationen ab.
+
+## Häufige Fehler und Fortschrittstipps
+
+- **Integriere niemals unter 100 % Effizienz.** Eine Karte, die bei 89 % gebaut wurde, ist dauerhaft schwächer als dasselbe Board, das sauber gebaut wurde.
+- **Prüfe das Iota-Limit, bevor du dich festlegst.** Das Vorschau-Grid bleibt gesperrt, also plane deine Platzierung anhand der Panel-Zahlen.
+- **Baue neu auf, statt auf Upgrades zu hoffen.** Doppelte Crafts sind separate Karten, also behandle jede fertige Karte als Momentaufnahme des Iota, das du ausgegeben hast.
+- **Priorisiere Potenz über Menge.** Vier Teile mit hoher Potenz können ein überfülltes, mit Strafen belastetes Board übertreffen.
+- **Stimme Traits auf Phasen ab.** Ein phasengebundenes defensives Passiv ist nur so gut wie die Phase, die es abdeckt.
+- **Farme Encounters, die die Tags fallen lassen, die du brauchst.** Rang- und Songlängen-Drops finanzieren verschiedene Teile deines Crafting-Zyklus.
+
+## FAQ
+
+**Was sind In-Falsus-Karten, und wie bekommt man sie?**
+In-Falsus-Karten werden hergestellt statt gezogen. Du wählst eine Charakter-Blaupause, integrierst Iota-Teile auf ihre farbigen Zonen, hältst Strafen bei null und finalisierst den Build. Die fertige Karte tritt deiner Sammlung bei und belegt einen von fünf Plätzen in einem Encounter.
+
+**Was ist Remembrance in In Falsus?**
+Remembrance ist das Story-Kalender-Label, das neben dem Schwierigkeitsgrad auf dem Loadout-Bildschirm jedes Encounters gedruckt wird — zum Beispiel „1 | 10276/8/27“ beim Übungs-Dive. Es stimmt mit dem Kalender überein, der von den Szenario-Kapiteln verwendet wird, was darauf hindeutet, dass jeder Encounter an einen bestimmten Moment in der Story gebunden ist.
+
+**Wie beeinflusst Iota-Potenz das Crafting?**
+Die durchschnittliche Potenz deiner platzierten Iota geteilt durch 100 wird zum Potenz-Multiplikator, der auf jeden Statuswert angewendet wird, den deine gefüllten Zonen gewähren. Teile mit höherer Potenz erhöhen den Multiplikator, und der Multiplikator hebt die Power und Verteidigung der fertigen Karte.
+
+**Wie bekommt man mehr Iota?**
+Schließe Dives ab. Der Ergebnisbildschirm listet jeden Drop mit einem Quellen-Tag wie Rang oder Songlänge auf. Da die Drop-Anzahlen zwischen den Durchläufen variieren, ist das Wiederholen von Encounters, die du zuverlässig abschließen kannst, der verlässlichste Weg, um weiter herzustellen.

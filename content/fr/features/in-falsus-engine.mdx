@@ -1,0 +1,104 @@
+export const metadata = {
+  title: "Le moteur d'In Falsus expliqué : rythme, Plans, Cartes et 4 difficultés",
+  description: "Comment le moteur d'In Falsus mêle jeu de rythme, fabrication de Plans et Cartes en une seule boucle — plus les paliers de difficulté et des conseils pour débutants.",
+  category: "features",
+  date: "2026-10-16",
+}
+
+## Ce que le moteur d'In Falsus signifie en pratique
+
+Cherchez une documentation technique approfondie sur le moteur d'In Falsus et vous ne trouverez rien — non pas parce qu'elle n'existe pas, mais parce que lowiro parle de systèmes de design plutôt que de middleware. Le moteur d'In Falsus, tel que les joueurs le vivent réellement, est la boucle qui relie les partitions rythmiques, un Champ aérien panoramique, les matériaux Iota à collectionner, les grilles de Plans et les Cartes fabricables à une histoire de roman visuel racontée à travers cinq perspectives.
+
+In Falsus est sorti le 9 septembre 2026 sur Windows, développé et édité par lowiro. Il figure dans les catégories Action et Indie, mais les tags des utilisateurs Steam racontent une histoire plus utile : Rythme, Musique, Roman visuel, Deckbuilding, Artisanat, Grille hexagonale, Riche en histoire, Anime, Émotionnel, Difficile. Chaque tag correspond à un véritable système au sein du jeu plutôt qu'à un argument marketing.
+
+Comprendre comment ces systèmes s'alimentent mutuellement, c'est ce qui fait la différence entre simplement terminer des morceaux et réellement progresser. C'est là la valeur essentielle de l'apprentissage du moteur d'In Falsus : il récompense les joueurs qui réfléchissent autant à leurs configurations et à leurs matériaux qu'au timing des notes.
+
+| Pilier | Ce qu'il fait | Où vous interagissez avec lui |
+|---|---|---|
+| Jeu de rythme | Barrages de notes plus un Champ aérien sur 4 difficultés | Rencontres musicales |
+| Iota | Matériaux d'artisanat essentiels obtenus en terminant des morceaux | Récompenses après le morceau |
+| Plans | Grilles dans lesquelles vous insérez de l'Iota pour produire des Cartes | Menu d'artisanat |
+| Cartes | Jusqu'à 5 équipées pour remodeler votre approche | Configuration avant le morceau |
+| Récit | Scènes de roman visuel à travers 5 protagonistes interconnectés | Entre les rencontres |
+
+## Au cœur de la couche rythmique : Champ, notes et quatre difficultés
+
+Le versant rythmique du moteur d'In Falsus utilise un schéma de contrôle signature à la souris et au clavier. Plutôt qu'une disposition fixe de pistes, les notes arrivent en parallèle d'un Champ aérien panoramique, ce qui signifie que votre attention se partage entre les motifs entrants et le positionnement spatial. Les retours de la communauté décrivent systématiquement le Champ comme l'élément qui prend le plus de temps à intérioriser — les nouveaux joueurs lisent souvent bien les notes et mal le Champ.
+
+La montée en difficulté est gérée via quatre paliers qui poussent du flow vers la maîtrise. Les sources ne publient pas de noms officiels pour ces paliers, alors considérez le tableau ci-dessous comme un aperçu structurel de la montée en intensité plutôt qu'un guide de dénomination.
+
+| Palier de difficulté | Densité de notes | Comportement du Champ | Idéal pour |
+|---|---|---|---|
+| Palier 1 | Clairsemée, timing indulgent | Exigences de mouvement minimales | Apprendre le schéma de contrôle |
+| Palier 2 | Motifs modérés | Les décalages du Champ deviennent significatifs | Constituer un stock d'Iota en sécurité |
+| Palier 3 | Motifs denses et superposés | Champ et notes se disputent votre attention | Tester une configuration de Cartes optimisée |
+| Palier 4 | Barrage maximal | Pression spatiale constante | Maîtrise et chasse au score |
+
+La bibliothèque de morceaux qui soutient ce moteur est substantielle : plus de 70 pistes, dont plus de 40 originales, produites par des compositeurs de la scène indépendante japonaise aux côtés d'artistes internationaux. Deux packs de contenu l'étendent davantage — un Virtual Singers Song Pack et un CHUNITHM Collaboration Song Pack, tous deux listés sur la [page Steam officielle d'In Falsus](https://store.steampowered.com/app/3971950/In_Falsus/).
+
+Si vous débutez dans le jeu, résistez à l'envie de sauter des paliers. Terminer à répétition des morceaux des paliers 1 et 2 est le moyen le plus rapide d'accumuler des matériaux, et ce sont les matériaux qui rendent les paliers supérieurs survivables.
+
+## La moitié artisanat du moteur d'In Falsus : Iota, Plans et Cartes
+
+C'est ici que le moteur d'In Falsus se distingue d'un jeu de rythme standard. Chaque morceau terminé rapporte de l'Iota, décrit par lowiro comme les matériaux essentiels du jeu. L'Iota seul ne fait rien — il doit être inséré dans des grilles de Plans.
+
+Les Plans constituent la couche de puzzle. Une grille offre un éventail de bonus et de renforts de statistiques, et la façon dont vous disposez l'Iota à l'intérieur détermine la Carte qui en ressort. Deux joueurs disposant de matériaux identiques peuvent produire des Cartes complètement différentes selon le placement dans la grille. Le tag Grille hexagonale sur Steam fait référence à cette mécanique d'agencement spatial.
+
+| Étape | Action | Ce qui change en aval |
+|---|---|---|
+| 1 | Terminer des morceaux pour collecter de l'Iota | Élargit votre réserve de matériaux |
+| 2 | Choisir une grille de Plan | Définit les résultats statistiques possibles |
+| 3 | Insérer l'Iota dans les cellules de la grille | Détermine les effets de la Carte finie |
+| 4 | Équiper jusqu'à 5 Cartes | Modifie votre approche des morceaux |
+| 5 | Obtenir des récompenses qui élargissent les options d'intégration | Débloque des voies d'artisanat plus profondes |
+
+Les Cartes ne sont pas de simples bâtons de statistiques abstraits. Chacune présente une illustration de personnages rencontrés et de moments narratifs vécus, dessinée par divers artistes. Ce choix de design compte : votre configuration fait aussi office de journal de votre parcours dans l'histoire.
+
+Un conseil pratique issu de la boucle d'artisanat : traitez les Plans comme des modèles réutilisables, et non comme des paris ponctuels. Avant d'engager de l'Iota rare, esquissez l'emplacement de chaque pièce. Les joueurs qui planifient d'abord leurs dispositions rapportent généralement moins de matériaux gaspillés que ceux qui insèrent avec avidité.
+
+## Comment le récit est câblé dans le moteur d'In Falsus
+
+Le récit n'est pas une enveloppe autour du moteur d'In Falsus — c'est l'un de ses murs porteurs. Le jeu suit cinq jeunes filles évoluant au lycée dans un monde proche du futur, entraînées dans un étrange programme gouvernemental et forcées d'affronter un pan inconnu de leur réalité. Entre les rencontres musicales, vous alternez entre leurs perspectives individuelles dans un style roman visuel.
+
+| Personnage | École | Comédienne de doublage |
+|---|---|---|
+| Nia Cana | Akie High School | Fuka Izumi |
+| Mei Alder | Akie High School | Ran Haruka |
+| Ayame Takatsuki | The Amachi Institute of Art & Design | Kanon Amane |
+| Iris Leal | Oskar Beck High School | Ayame Fujikami |
+| Story Étienne | Xenia Academy | Mirii Saito |
+
+Le cadre est un monde lié à la vérité sous un Voile énigmatique, où les émotions sont mises à nu et où le mensonge n'est pas permis. Les rencontres avec d'autres personnages sont chacune liées à un morceau unique, ce qui explique pourquoi la bande-son et l'intrigue semblent inséparables plutôt que parallèles.
+
+Davantage de détails sur le casting, le monde et le cadre sont disponibles sur le [site officiel d'In Falsus par lowiro](https://infalsus.lowiro.com/). Lire les profils des personnages avant un chapitre est un moyen peu coûteux de saisir les indices narratifs que la musique elle-même commente.
+
+## Conseils pratiques pour tirer davantage du moteur d'In Falsus
+
+Ces recommandations proviennent d'un mélange de systèmes documentés et d'expériences de joueurs partagées depuis le lancement.
+
+| Astuce | Pourquoi ça fonctionne |
+|---|---|
+| Farmer tôt les morceaux des paliers 1–2 | Revenus d'Iota rapides avec un faible risque d'échec |
+| Planifier les dispositions de Plans avant d'insérer | Évite de gaspiller des matériaux rares |
+| Reconstruire votre configuration de 5 Cartes à chaque rencontre | Les Cartes sont des outils, pas des améliorations permanentes |
+| Lire les scènes narratives plutôt que les passer | Le contexte indique quels morceaux vous affronterez |
+| Rester à la souris et au clavier | Le schéma de contrôle est conçu autour de cela |
+| Revisiter les morceaux terminés après avoir fabriqué | Les nouvelles Cartes changent souvent la difficulté d'une partition |
+
+La configuration requise est modeste selon les standards actuels, donc la performance est rarement le goulot d'étranglement : Windows 10 ou plus récent, un Intel i5-7500, 8 Go de RAM, une GeForce GTX 980, DirectX 11 et 10 Go de stockage. Si une partition semble illisible, le problème vient presque toujours de la configuration ou du Champ, pas du taux de rafraîchissement.
+
+L'accueil a été chaleureux. Les chiffres rapportés par la communauté sur Steam montrent qu'environ 90 % de plus de 1 200 avis cumulés sont positifs, avec une proportion similaire parmi les quelques centaines les plus récents. Ces chiffres reflètent un jeu qui respecte le temps que vous investissez dans sa couche d'artisanat.
+
+## FAQ sur le moteur d'In Falsus
+
+**Le moteur d'In Falsus est-il un framework tiers sous licence ?**
+lowiro n'a pas publié de documentation technique nommant un framework sous-jacent. Ce que le studio documente publiquement, c'est le moteur de design : jeu de rythme, Iota, Plans, Cartes et récit en roman visuel fonctionnant comme un seul système connecté.
+
+**Dois-je m'engager dans l'artisanat pour terminer les morceaux ?**
+Techniquement non, mais pratiquement oui aux paliers supérieurs. Le moteur d'In Falsus fait monter les menaces dans le Scenario, et les Cartes sont le principal levier dont vous disposez pour y répondre. Sauter les Plans rend les difficultés ultérieures nettement plus rudes.
+
+**Combien y a-t-il de morceaux et de difficultés ?**
+Le jeu est livré avec plus de 70 morceaux — plus de 40 originaux — répartis sur quatre paliers de difficulté, avec des packs de morceaux supplémentaires disponibles séparément.
+
+**Quel est le moyen le plus rapide de progresser dans le moteur d'In Falsus ?**
+Verrouillez un seul schéma de contrôle, rejouez les paliers inférieurs pour stocker de l'Iota, et reconstruisez votre configuration avant chaque nouvelle rencontre. Les joueurs qui traitent chaque morceau comme un problème de configuration autant que de timing progressent le plus vite.

@@ -1,0 +1,115 @@
+export const metadata = {
+  title: "Cartas de In Falsus explicadas: fabricación, Remembrance, potencia y el bucle de Iota",
+  description: "Una guía completa de las cartas de In Falsus: cómo los Planos, la potencia de Iota, las penalizaciones, las casillas de rasgos y Remembrance dan forma a cada configuración fabricada.",
+  category: "features",
+  date: "2026-10-16",
+}
+
+Cada carta en In Falsus se fabrica, no se roba: colocas piezas de Iota en un Plano de personaje, mantienes tus penalizaciones a cero y finalizas el tablero para convertirlo en una carta permanente. Esa única decisión de diseño reformula cómo progresas: en lugar de perseguir un sorteo afortunado, farmeas materiales y reconstruyes una versión mejor del mismo personaje. Si quieres que tus cartas de In Falsus te lleven a través de Incursiones más difíciles, hay tres cosas que más importan: la potencia, las penalizaciones y el bucle de Iota que financia ambas. A continuación, desglosamos cómo viajan las cartas de In Falsus desde el Iota bruto hasta miembros de escuadrón listos para el combate, y qué significa realmente la etiqueta Remembrance en cada pantalla de encuentro.
+
+## El bucle central: cómo se vuelven más fuertes las cartas de In Falsus
+
+La economía del juego es un círculo cerrado. Completas Incursiones para ganar Iota, integras ese Iota en Planos para fabricar cartas más fuertes y luego llevas esas cartas a Encuentros más difíciles que pagan mejor Iota. Cada paso alimenta al siguiente, por lo que una carta débil rara vez es un callejón sin salida: normalmente es una señal de que tus piezas de Iota necesitan una mejora.
+
+El panel de Integración del hub registra los tres recursos de fabricación en un solo lugar. En el metraje de la demo, ese panel mostraba 2 Planos, 2 Cartas y 234 Iota, junto al capítulo del Escenario titulado "La primera mentira".
+
+| Recurso | Qué es | De dónde viene |
+|---|---|---|
+| Plano | Un tablero específico de personaje sobre el que construyes, con un Nivel y un Límite de Iota | Progresión y desbloqueos del hub |
+| Iota | Piezas individuales que gastas, cada una con un valor de Potencia | Incursiones completadas, etiquetadas por su origen |
+| Carta | La construcción finalizada que se une a tu colección y lucha en los Encuentros | Confirmar un Plano completado |
+
+Una curiosidad importante, reportada en el metraje de la demo: fabricar el mismo Plano dos veces produce dos copias separadas en lugar de una mejora. La colección mostrada en ese metraje tenía dos cartas Mei: 4AM con líneas de estadísticas diferentes (2,184/1,911 y 2,788/2,439) junto a Nia: Path to Reality (4,730/946). Iota más fuerte entra, carta más fuerte sale: reconstruir es el sistema de progresión.
+
+## Fabricación de cartas de In Falsus, paso a paso
+
+El flujo va desde el menú de Integración del hub hasta una carta terminada en tu colección. Esta es la secuencia completa tal como aparece en el metraje de la versión demo, así que espera diferencias de ajuste en la versión final.
+
+| Paso | Acción | Qué observar |
+|---|---|---|
+| 1 | Abre el panel de Integración desde el hub | Confirma tus recuentos de Planos, Cartas e Iota |
+| 2 | Elige un Plano | Su Nivel, Límite de Iota (y Máx.) y estadísticas base: Mei: 4AM indica Nivel 1, Límite de Iota 4 (Máx.: 6), 1,800 de Poder, 4,200 de Defensa |
+| 3 | Arrastra Iota a las Zonas de colores | Las Zonas solo rinden una vez que su contador de llenado se completa (3/3, 0/6…) |
+| 4 | Vigila el panel de Penalizaciones | Sobrecarga, Fuera de límites, Superposición, Desconexión y Falsedad |
+| 5 | Cubre las casillas de Rasgos | Pasivos como Inner Rigor++ ("Durante la fase de esta Carta: DEF total +66%") |
+| 6 | Verifica el 100% de eficiencia | Cuatro de cuatro Iota usados, cero penalizaciones |
+| 7 | Finaliza la carta | Revisa los Rasgos disponibles en los niveles I–III y luego confirma Integrar |
+
+Algunos detalles son fáciles de pasar por alto. La Vista previa de la cuadrícula permanece bloqueada hasta que confirmas, lo que convierte el botón Integrar en el punto de no retorno: no puedes explorar la disposición del tablero primero. Y cuando la primera pieza de 110 de potencia cae en una zona 3/3, el panel lateral se actualiza de inmediato: Iota usado 1/4, Potencia media 110, Multiplicador de potencia ×1.10, con el tooltip de la zona mostrando +1,000 de Poder.
+
+## Multiplicador de potencia y penalizaciones: las matemáticas detrás de mejores cartas
+
+La potencia es la palanca más importante de una carta terminada. La Potencia media de tu Iota colocado se divide entre 100, y esa cifra multiplica cada estadística que otorgan las Zonas llenas. Una sola pieza de 110 de potencia establece el multiplicador en ×1.10; la construcción de la demo termina en ×1.74, lo que convierte 1,600 de Poder base en 2,788.
+
+| Potencia media | Multiplicador | Rendimiento en una zona que vale 1,000 de Poder base |
+|---|---|---|
+| 100 | ×1.00 | 1,000 |
+| 110 | ×1.10 | 1,100 |
+| 150 | ×1.50 | 1,500 |
+| 174 | ×1.74 | 1,740 |
+
+La tabla anterior simplemente aplica la fórmula indicada en la demo a un rendimiento de ejemplo; el punto es que la potencia se acumula en cada zona que llenas, así que un puñado de piezas de alta potencia supera a un tablero lleno de piezas débiles.
+
+Las penalizaciones funcionan en la dirección opuesta, reduciendo permanentemente la carta terminada. En el metraje de la demo, colocar una quinta pieza contra un Límite de Iota de 4 activó Sobrecarga 1 y bajó la eficiencia del 100% al 89%. Como esa reducción está integrada en las estadísticas finales, integrar al 89% es un error que no puedes deshacer.
+
+| Penalización | Qué señala | Notas del metraje |
+|---|---|---|
+| Sobrecarga | Más Iota colocados de los que permite el Límite de Iota del Plano | 5/4 piezas redujeron la eficiencia al 89% |
+| Fuera de límites | Piezas colocadas fuera del espacio legal de la cuadrícula | Aparece en el panel; reducción exacta no mostrada |
+| Superposición | Dos piezas ocupando el mismo hexágono | Aparece en el panel; reducción exacta no mostrada |
+| Desconexión | Zonas llenas que no se conectan correctamente | Aparece en el panel; reducción exacta no mostrada |
+| Falsedad | Una violación de reglas registrada por el panel | Aparece en el panel; reducción exacta no mostrada |
+
+La experiencia de los jugadores coincide en una cosa: Penalizaciones totales 0 equivale a 100% de eficiencia, y ese debería ser tu objetivo todas las veces.
+
+## ¿Qué significa la etiqueta Remembrance?
+
+Abre la pantalla de configuración de cualquier Encuentro y el encabezado muestra dos campos uno al lado del otro: una Clasificación de dificultad y un Remembrance. La Incursión de práctica, con Clasificación de dificultad 100, muestra "1 | 10276/8/27": un número consecutivo más una fecha completa del calendario ficticio.
+
+Esa fecha no es decorativa. El panel de Escenario del hub marca el capítulo 1, "La primera mentira", como Mes 8, Día 28 en el mismo calendario, año 10276. Por lo tanto, un Remembrance ancla cada encuentro a un momento concreto de la línea temporal de la historia, y el número antes de la fecha parece contar esos momentos en orden.
+
+| Campo del encabezado | Valor de ejemplo | Qué te dice |
+|---|---|---|
+| Clasificación de dificultad | 100 | Cuán exigente es el encuentro |
+| Remembrance | 1 \| 10276/8/27 | Dónde se sitúa la lucha en el calendario del Escenario |
+
+Los informes de la comunidad se cuidan de señalar una advertencia: la demo nunca define el término más allá de esta etiqueta. Trata Remembrance como una observación del metraje, y no como una mecánica confirmada, hasta que la versión final diga lo contrario.
+
+## Usar tus cartas en los Encuentros y cerrar el bucle de Iota
+
+En un Encuentro, tus cinco ranuras de cartas se alinean en los raíles laterales y se activan en orden. Cada carta posee una Fase de la canción, y es entonces cuando se aplican sus estadísticas y rasgos; por eso las casillas de Rasgos importan tanto. Inner Rigor++ mantiene la línea solo mientras la fase de su carta está activa, así que un rasgo defensivo en una carta de fase temprana se desperdicia si el gran daño entrante llega más tarde.
+
+Acertar notas dispara contra el enemigo mientras sus golpes impactan en tu línea de juicio, y la Puntuación de encuentro bajo la puntuación principal sube a medida que les superas en daño. Después de la canción, el banner de resultados se expande en un desglose completo.
+
+| Métrica de resultado | Lectura de la demo | Qué muestra |
+|---|---|---|
+| Índice ofensivo | 73,172 | Tu producción ofensiva general |
+| Daño infligido | 30,000 | Daño real aplicado al oponente |
+| Índice defensivo | 31,932 | Tu fuerza defensiva general |
+| Daño recibido | 2,484 | Daño que logró pasar |
+| Puntuación de encuentro | 000'233'656 (CONECTADO) | Calificación de rendimiento de la partida |
+
+Completar la Incursión otorga nuevo Iota en la pantalla de resultados. Una partida completada en la demo soltó cinco piezas, cada una etiquetada por su origen: algunas de Rango, otras de Duración de la canción. Las cantidades de botín varían entre partidas, así que farmear de forma eficiente es el camino fiable a seguir. Si quieres una mirada más profunda al propio juego, el [sitio del estudio lowiro](https://lowiro.com/) cubre el proyecto y sus presentaciones oficiales.
+
+## Errores comunes y consejos de progresión
+
+- **Nunca integres por debajo del 100% de eficiencia.** Una carta construida al 89% es permanentemente más débil que el mismo tablero construido de forma limpia.
+- **Revisa el Límite de Iota antes de confirmar.** La vista previa de la cuadrícula permanece bloqueada, así que planifica tu colocación a partir de los números del panel.
+- **Reconstruye en lugar de esperar mejoras.** Las fabricaciones duplicadas son cartas separadas, así que trata cada carta terminada como una instantánea del Iota que gastaste.
+- **Prioriza la potencia sobre el volumen.** Cuatro piezas de alta potencia pueden superar a un tablero abarrotado y lleno de penalizaciones.
+- **Empareja los rasgos con las fases.** Un pasivo defensivo bloqueado por fase solo es tan bueno como la fase que cubre.
+- **Farmea encuentros que suelten las etiquetas que necesitas.** Los botines de Rango y Duración de la canción financian distintas partes de tu ciclo de fabricación.
+
+## FAQ
+
+**¿Qué son las cartas de In Falsus y cómo se obtienen?**
+Las cartas de In Falsus se fabrican en lugar de obtenerse por sorteo. Eliges un Plano de personaje, integras piezas de Iota en sus Zonas de colores, mantienes las penalizaciones a cero y finalizas la construcción. La carta terminada se une a tu colección y ocupa una de las cinco ranuras en un Encuentro.
+
+**¿Qué es Remembrance en In Falsus?**
+Remembrance es la etiqueta del calendario de la historia que aparece junto a la Clasificación de dificultad en la pantalla de configuración de cada encuentro; por ejemplo, "1 | 10276/8/27" en la Incursión de práctica. Coincide con el calendario usado por los capítulos del Escenario, lo que sugiere que cada encuentro está vinculado a un momento concreto de la historia.
+
+**¿Cómo afecta la potencia de Iota a la fabricación?**
+La Potencia media de tu Iota colocado, dividida entre 100, se convierte en el Multiplicador de potencia que se aplica a cada estadística que otorgan tus Zonas llenas. Las piezas de mayor potencia elevan el multiplicador, y el multiplicador aumenta el Poder y la Defensa de la carta terminada.
+
+**¿Cómo se consigue más Iota?**
+Completa Incursiones. La pantalla de resultados enumera cada botín con una etiqueta de origen, como Rango o Duración de la canción. Como las cantidades de botín varían entre partidas, repetir encuentros que puedes completar de forma fiable es la manera más segura de seguir fabricando.

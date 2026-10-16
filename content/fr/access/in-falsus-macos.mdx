@@ -1,0 +1,122 @@
+export const metadata = {
+  title: "In Falsus sur macOS : pouvez-vous y jouer sur un Mac ? Guide de compatibilité complet 2026",
+  description: "Il n'existe pas encore de version native d'In Falsus pour macOS. Voici toutes les solutions que les joueurs Mac peuvent essayer, des ajustements CrossOver au cloud gaming — et ce qui bloque.",
+  category: "access",
+  date: "2026-10-16",
+}
+
+## L'état du support d'In Falsus sur macOS en 2026
+
+Si vous possédez un Mac et que vous attendez de vous lancer dans le nouveau jeu de rythme-RPG de lowiro, la réponse est sans détour : il n'existe pas de version native d'In Falsus pour macOS. Le jeu est sorti sur Steam le 9 septembre 2026, et sa page de boutique ne liste que Windows 10 ou plus récent comme système d'exploitation pris en charge — aucune icône Mac, aucune icône Linux, aucun badge de compatibilité. Pour quiconque cherche à accéder à In Falsus sur macOS, c'est le premier mur auquel on se heurte.
+
+La frustration est compréhensible. In Falsus est un jeu de rythme enveloppé dans un récit de visual novel et un système de création de cartes, et il a bien été accueilli : Steam affiche une évaluation globale « Très positive », avec environ 90 % de plus de 1 200 avis qui le recommandent. Les utilisateurs de Mac regardent un jeu bien noté rester bloqué derrière une barrière de plateforme.
+
+Cela ne signifie pas que les propriétaires de Mac sont totalement exclus. Cela signifie que le chemin vers le jeu implique des couches de traduction, des compromis et pas mal de patience — et les résultats jusqu'ici ont été mitigés.
+
+## Configuration requise d'In Falsus face à votre Mac
+
+Avant de passer une soirée à vous battre avec des outils de compatibilité, il est utile de savoir si votre matériel pourrait théoriquement faire tourner le jeu. Voici ce que demande la fiche officielle sur Steam.
+
+| Composant | Minimum | Recommandé |
+|---|---|---|
+| OS | Windows 10 ou plus récent (64 bits) | Windows 64 bits |
+| Processeur | Intel i5-7500 | Non spécifié |
+| Mémoire | 8 Go de RAM | Non spécifié |
+| Graphismes | NVIDIA GeForce GTX 980 | Non spécifié |
+| DirectX | Version 11 | Version 11 |
+| Stockage | 10 Go d'espace disponible | 10 Go d'espace disponible |
+
+Deux choses sautent aux yeux. Premièrement, les prérequis listés sont entièrement orientés Windows et x86, ce qui explique pourquoi les Mac Apple Silicon font face à un double problème de traduction : l'architecture du processeur *et* l'API graphique doivent toutes deux être converties. Deuxièmement, le schéma de contrôle du jeu est conçu autour de la souris et du clavier, donc vous n'aurez pas à résoudre la configuration d'une manette en plus de tout le reste.
+
+Voici comment les configurations Mac typiques se comparent à cette base de référence.
+
+| Configuration Mac | Puissance brute vs GTX 980 | Traduction nécessaire | Perspectives réalistes |
+|---|---|---|---|
+| MacBook Pro / Air série M | Généralement capable | x86 + DirectX 11 → Metal | Possible, non prouvé |
+| Mac Intel avec GPU dédié | Variable selon les modèles | DirectX 11 → Metal | Dépend du niveau du GPU |
+| Mac Intel avec graphiques intégrés | En dessous de la base | DirectX 11 → Metal | Peu probablement jouable |
+| Mac avec 8 Go de RAM | Limite | Les deux | Pression mémoire probable |
+
+## Toutes les solutions pour In Falsus sur macOS, comparées
+
+Il n'existe pas de voie unique approuvée pour jouer à In Falsus sur macOS actuellement, donc la question pratique devient : quelle solution vous fait perdre le moins de temps ? Le tableau ci-dessous classe les options en fonction de ce que la communauté a réellement rapporté.
+
+| Méthode | Comment ça fonctionne | Succès rapporté | Idéal pour |
+|---|---|---|---|
+| CrossOver | Exécute la version Windows via une couche de compatibilité | Le lancement fonctionne, le jeu se bloque sur un écran noir ou au menu principal | Les bricoleurs curieux |
+| Apple Game Porting Toolkit / wrappers de type Whisky | Traduit les appels DirectX en Metal | Non testé publiquement pour ce titre | Utilisateurs avancés qui aiment expérimenter |
+| Parallels ou une VM Windows | Exécute Windows sur ARM, puis émule x86 | Peu probable pour un jeu de rythme DirectX 11 | Non recommandé |
+| Boot Camp | Windows natif sur les Mac Intel | Fonctionnerait, mais uniquement sur Mac Intel | Propriétaires de Mac Intel plus anciens |
+| Cloud gaming | Diffuse le jeu depuis un PC distant | Dépend de la disponibilité du catalogue | Toute personne avec une bonne connexion internet |
+| Steam Deck / SteamOS | Linux via Proton | Évoqué comme point de comparaison par les joueurs | Les personnes possédant un Deck |
+
+Le point clé : CrossOver est l'option que la plupart des joueurs Mac ont réellement essayée, et c'est celle qui présente le plus de problèmes documentés.
+
+### Ce que disent réellement les rapports de la communauté
+
+Un fil de discussion Steam autour du jeu sur Mac et CrossOver capture bien l'expérience. L'auteur original utilisait un MacBook avec une puce M4 Pro et CrossOver 26.0. Après une mise à jour de version, le jeu se lançait puis restait bloqué sur un écran noir sans aucune réponse.
+
+Un autre joueur du fil — précisant qu'il ne joue pas sur Mac — a suggéré de vérifier que le « bottle » CrossOver était configuré pour utiliser D3DMetal plutôt que le backend wined3d par défaut. Son raisonnement était solide : CrossOver s'appuie sur une base de données interne pour décider quelle bibliothèque graphique utiliser, et pour un jeu qu'il ne connaît pas, il retombe sur l'ancien réglage par défaut.
+
+L'auteur original a testé cette suggestion et a rapporté que le problème persistait en mode graphique D3DMetal. Sa conclusion était qu'il devrait probablement attendre une optimisation supplémentaire. D'autres fils du même forum font écho à des symptômes similaires : un écran noir au démarrage, un gel après le tutoriel lors du changement de morceau et de la sélection d'une difficulté plus élevée, et l'impossibilité de démarrer le tutoriel tout court.
+
+Considérez tout cela comme de l'expérience de joueur plutôt que comme des recommandations officielles. Les résultats individuels varient selon la puce, la version de macOS et la version de CrossOver.
+
+## Étape par étape : exécuter In Falsus sur macOS avec CrossOver
+
+Si vous voulez quand même essayer, voici la séquence la plus sensée d'après ce qui a été partagé publiquement. Prévoyez une heure, et n'attendez pas de résultat garanti.
+
+| Étape | Action | Pourquoi c'est important |
+|---|---|---|
+| 1 | Vérifiez que vos versions de macOS et de CrossOver sont à jour | Les anciennes versions manquent les correctifs de la couche graphique |
+| 2 | Créez un bottle dédié à In Falsus | Garde les dépendances isolées des autres applications |
+| 3 | Réglez le backend graphique du bottle sur D3DMetal | Évite le repli vers wined3d pour les titres inconnus |
+| 4 | Installez le jeu via Steam à l'intérieur du bottle | Correspond à la façon dont le jeu est distribué |
+| 5 | Lancez et attendez deux bonnes minutes | Les écrans noirs se résolvent parfois tardivement |
+| 6 | Si ça bloque, consultez le journal de la console | La ligne d'erreur vous en dit plus que l'écran |
+| 7 | Rapportez vos conclusions aux forums des développeurs | Les correctifs communautaires sont ainsi que ces lacunes se comblent |
+
+Quelques conseils pratiques en complément :
+
+- **Ne le jugez pas au premier lancement.** Les jeux de rythme compilent souvent les shaders ou décompressent les ressources au démarrage, et une couche de traduction rend cela plus lent, pas plus rapide.
+- **Fermez tout le reste.** Si vous êtes proche de la limite des 8 Go de RAM, les applications en arrière-plan peuvent faire la différence entre un menu et un plantage.
+- **Évitez le test de changement de difficulté trop tôt.** Plusieurs rapports de la communauté pointent des gels spécifiquement après un changement de morceau ou une augmentation de difficulté, alors gardez cette expérience pour plus tard.
+- **Gardez des attentes réalistes.** La boucle de jeu principale dépend d'un timing audio et de saisie serré. Même si une couche de compatibilité vous amène dans un morceau, la latence introduite par la traduction peut faire paraître les partitions difficiles fausses.
+
+## À l'intérieur du jeu : ce que les joueurs Mac manquent
+
+Si vous pesez le pour et le contre entre continuer à poursuivre la compatibilité d'In Falsus sur macOS ou simplement emprunter un PC Windows, il est utile de savoir ce qui se trouve de l'autre côté de la barrière.
+
+| Caractéristique | Détail |
+|---|---|
+| Genre | Jeu de rythme avec construction de deck et éléments de visual novel |
+| Développeur / Éditeur | lowiro |
+| Date de sortie | 9 septembre 2026 |
+| Protagonistes | Cinq lycéennes interconnectées |
+| Difficultés | Quatre, faisant évoluer la densité des notes et la complexité du Field |
+| Nombre de morceaux | Plus de 70 pistes, dont plus de 40 originales |
+| Système de cartes | Fabriquez des Cards à partir des matériaux « Iota » collectés via des grilles de Blueprint |
+| Cartes équipées | Jusqu'à 5 par morceau |
+| Prix de base | 39,99 $ |
+| DLC | Virtual Singers Song Pack, CHUNITHM Collaboration Song Pack |
+| Langues | Anglais, japonais, chinois simplifié, chinois traditionnel |
+
+C'est la structure qui rend le problème de compatibilité si frustrant. In Falsus lie directement son gameplay de rythme à son histoire : les rencontres entre personnages sont mises en scène sous forme de morceaux, et les Cards que vous fabriquez — construites en insérant des matériaux Iota dans des grilles de Blueprint — changent votre façon d'aborder chacune d'elles. Le récit suit cinq élèves de différentes écoles dont la vie bascule lorsqu'elles sont invitées dans un étrange programme gouvernemental.
+
+Comme la synchronisation audio et le timing des notes sont tout l'intérêt du jeu, c'est un genre où « ça tourne » et « ça se joue correctement » sont deux niveaux très différents. C'est le meilleur argument pour attendre un support officiel plutôt que de se battre contre une couche qui pourrait ne jamais sembler juste.
+
+Pour les informations de plateforme les plus récentes, consultez le site officiel d'In Falsus et la page boutique Steam, qui est l'endroit où toute future annonce Mac apparaîtrait en premier.
+
+## FAQ
+
+**Existe-t-il une version officielle d'In Falsus pour macOS ?**
+Non. En octobre 2026, la fiche Steam du jeu ne nomme Windows 10 ou plus récent comme le seul système d'exploitation pris en charge. Aucun client Mac natif n'a été annoncé, et il n'y a aucun badge de compatibilité sur la page boutique.
+
+**CrossOver peut-il exécuter In Falsus sur un Mac Apple Silicon ?**
+Les joueurs ont réussi à le lancer, mais les rapports de la communauté décrivent un blocage sur un écran noir ou un gel au menu principal. Passer le bottle au backend graphique D3DMetal est le correctif le plus souvent suggéré, bien qu'au moins un joueur ait rapporté que le problème persistait par la suite.
+
+**Quelles sont les configurations minimales pour la version Windows ?**
+Un Intel i5-7500, 8 Go de RAM, une NVIDIA GeForce GTX 980, DirectX 11 et 10 Go de stockage libre sur un système Windows 10 64 bits ou plus récent.
+
+**Quelle est la meilleure alternative pour les propriétaires de Mac qui veulent jouer maintenant ?**
+Boot Camp fonctionne si vous possédez un Mac Intel. Sinon, le cloud gaming ou jouer sur un PC Windows ou un Steam Deck est plus fiable que de se battre contre une couche de traduction — et vu à quel point le gameplay est sensible au timing, cette fiabilité compte davantage ici que dans la plupart des genres.

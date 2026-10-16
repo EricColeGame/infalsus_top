@@ -1,0 +1,115 @@
+export const metadata = {
+  title: "Les cartes d'In Falsus expliquées : Fabrication, Souvenir, Potence et la boucle d'Iota",
+  description: "Un guide complet des cartes d'In Falsus : comment les Plans, la Potence des Iota, les pénalités, les tuiles de Trait et le Souvenir façonnent chaque build fabriqué.",
+  category: "features",
+  date: "2026-10-16",
+}
+
+Chaque carte d'In Falsus est fabriquée, pas tirée : vous insérez des pièces d'Iota dans le Plan d'un personnage, maintenez vos pénalités à zéro et finalisez le plateau pour en faire une carte permanente. Ce seul choix de conception remodèle votre progression — au lieu de courir après un tirage chanceux, vous farmez des matériaux et reconstruisez une meilleure version du même personnage. Si vous voulez que vos cartes d'In Falsus vous portent à travers des Plongées plus difficiles, trois choses comptent le plus : la Potence, les pénalités et la boucle d'Iota qui finance les deux. Ci-dessous, nous décomposons comment les cartes d'In Falsus passent d'Iota brut à membres d'escouade prêts au combat, et ce que signifie réellement le libellé Souvenir sur chaque écran de rencontre.
+
+## La boucle centrale : comment les cartes d'In Falsus deviennent plus fortes
+
+L'économie du jeu est un cercle fermé. Vous terminez des Plongées pour gagner de l'Iota, intégrez cet Iota dans des Plans pour fabriquer des cartes plus fortes, puis emmenez ces cartes dans des Rencontres plus difficiles qui rapportent un meilleur Iota. Chaque étape nourrit la suivante, c'est pourquoi une carte faible est rarement une impasse — c'est généralement le signe que vos pièces d'Iota doivent être améliorées.
+
+Le panneau d'Intégration du hub suit les trois ressources de fabrication au même endroit. Dans les images de la démo, ce panneau affichait 2 Plans, 2 Cartes et 234 Iota, à côté du chapitre de Scénario intitulé « Le Premier Mensonge ».
+
+| Ressource | Ce que c'est | D'où elle vient |
+|---|---|---|
+| Plan | Un plateau propre à un personnage sur lequel vous construisez, avec un Palier et une Limite d'Iota | Progression et déblocages du hub |
+| Iota | Des pièces individuelles que vous dépensez, chacune portant une valeur de Potence | Terminer des Plongées, étiquetées par source |
+| Carte | Le build finalisé qui rejoint votre collection et combat dans les Rencontres | Confirmer un Plan terminé |
+
+Une bizarrerie importante, rapportée par les images de la démo : fabriquer deux fois le même Plan produit deux copies distinctes plutôt qu'une amélioration. La collection montrée dans ces images contenait deux cartes Mei: 4AM avec des lignes de stats différentes (2 184/1 911 et 2 788/2 439), à côté de Nia: Path to Reality (4 730/946). Iota plus fort en entrée, carte plus forte en sortie — la reconstruction est le système de progression.
+
+## Fabriquer des cartes In Falsus, étape par étape
+
+Le flux va du menu d'Intégration du hub à une carte terminée dans votre collection. Voici la séquence complète telle qu'elle apparaît dans les images de la version démo, alors attendez-vous à des différences d'équilibrage dans la version finale.
+
+| Étape | Action | Ce qu'il faut surveiller |
+|---|---|---|
+| 1 | Ouvrir le panneau d'Intégration depuis le hub | Confirme vos nombres de Plans, Cartes et Iota |
+| 2 | Choisir un Plan | Son Palier, sa Limite d'Iota (et Max), et ses stats de base — Mei: 4AM affiche Palier 1, Limite d'Iota 4 (Max : 6), 1 800 Puissance, 4 200 Défense |
+| 3 | Glisser des Iota sur les Zones colorées | Les Zones ne rapportent qu'une fois leur compteur de remplissage complété (3/3, 0/6…) |
+| 4 | Surveiller le panneau des Pénalités | Surcharge, Hors limites, Chevauchement, Déconnexion et Fausseté |
+| 5 | Couvrir les tuiles de Trait | Des passifs tels que Inner Rigor++ (« Pendant la Phase de cette Carte : DÉF totale +66 % ») |
+| 6 | Vérifier une efficacité de 100 % | Quatre Iota sur quatre utilisés, zéro pénalité |
+| 7 | Finaliser la carte | Passer en revue les Traits disponibles aux paliers I–III, puis confirmer Intégrer |
+
+Quelques détails sont faciles à manquer. L'aperçu de la grille reste verrouillé jusqu'à ce que vous validiez, ce qui fait du bouton Intégrer le point de non-retour — vous ne pouvez pas repérer la disposition du plateau à l'avance. Et quand la première pièce de Potence 110 atterrit dans une zone 3/3, le panneau latéral se met immédiatement à jour : Iota utilisés 1/4, Potence moyenne 110, Multiplicateur de Potence ×1,10, avec l'infobulle de la zone qui clignote +1 000 Puissance.
+
+## Multiplicateur de Potence et pénalités : les maths derrière de meilleures cartes
+
+La Potence est le plus grand levier sur une carte terminée. La Potence moyenne de vos Iota placés est divisée par 100, et ce chiffre multiplie chaque stat accordée par les Zones remplies. Une seule pièce de Potence 110 fixe le multiplicateur à ×1,10 ; le build de la démo termine à ×1,74, ce qui transforme 1 600 Puissance de base en 2 788.
+
+| Potence moyenne | Multiplicateur | Gain sur une zone valant 1 000 Puissance de base |
+|---|---|---|
+| 100 | ×1,00 | 1 000 |
+| 110 | ×1,10 | 1 100 |
+| 150 | ×1,50 | 1 500 |
+| 174 | ×1,74 | 1 740 |
+
+Le tableau ci-dessus applique simplement la formule indiquée par la démo à un gain d'exemple — l'idée est que la Potence se cumule sur chaque zone que vous remplissez, donc une poignée de pièces à forte Potence bat un plateau entier de pièces faibles.
+
+Les pénalités agissent dans la direction opposée, réduisant définitivement la carte terminée. Dans les images de la démo, placer une cinquième pièce face à une Limite d'Iota de 4 a déclenché Surcharge 1 et fait chuter l'efficacité de 100 % à 89 %. Comme cette réduction est intégrée aux stats finales, intégrer à 89 % est une erreur que vous ne pouvez pas annuler.
+
+| Pénalité | Ce qu'elle signale | Notes des images |
+|---|---|---|
+| Surcharge | Plus d'Iota placés que la Limite d'Iota du Plan ne l'autorise | 5/4 pièces ont réduit l'efficacité à 89 % |
+| Hors limites | Pièces placées en dehors de l'espace légal de la grille | Listée sur le panneau ; réduction exacte non montrée |
+| Chevauchement | Deux pièces occupant le même hex | Listée sur le panneau ; réduction exacte non montrée |
+| Déconnexion | Zones remplies qui ne se connectent pas correctement | Listée sur le panneau ; réduction exacte non montrée |
+| Fausseté | Une violation de règle suivie par le panneau | Listée sur le panneau ; réduction exacte non montrée |
+
+L'expérience des joueurs est constante sur un point : Total des pénalités 0 équivaut à 100 % d'efficacité, et cela devrait être votre objectif à chaque fois.
+
+## Que signifie le libellé Souvenir ?
+
+Ouvrez l'écran de préparation de n'importe quelle Rencontre et l'en-tête affiche deux champs côte à côte : une Note de difficulté et un Souvenir. La Plongée d'entraînement, à Note de difficulté 100, affiche « 1 | 10276/8/27 » — un numéro courant plus une date complète du calendrier de fiction.
+
+Cette date n'est pas décorative. Le panneau Scénario du hub date le chapitre 1, « Le Premier Mensonge », au Mois 8, Jour 28 dans le même calendrier, année 10276. Un Souvenir ancre donc chaque rencontre à un moment concret de la chronologie de l'histoire, et le nombre avant la date semble compter ces moments dans l'ordre.
+
+| Champ d'en-tête | Exemple de valeur | Ce qu'il vous dit |
+|---|---|---|
+| Note de difficulté | 100 | À quel point la rencontre est exigeante |
+| Souvenir | 1 \| 10276/8/27 | Où se situe le combat dans le calendrier du Scénario |
+
+Les rapports de la communauté prennent soin de signaler une réserve : la démo ne définit jamais le terme au-delà de ce libellé. Considérez le Souvenir comme une observation issue des images plutôt qu'une mécanique confirmée jusqu'à ce que la version finale dise le contraire.
+
+## Utiliser vos cartes dans les Rencontres et fermer la boucle d'Iota
+
+Dans une Rencontre, vos cinq emplacements de cartes bordent les rails latéraux et s'activent dans l'ordre. Chaque carte possède une Phase du morceau, et c'est alors que ses stats et traits s'appliquent — c'est exactement pourquoi les tuiles de Trait comptent autant. Inner Rigor++ tient la ligne uniquement pendant que la phase de sa carte est active, donc un trait défensif sur une carte de début de phase est gaspillé si les gros dégâts entrants arrivent plus tard.
+
+Toucher les notes tire sur l'ennemi pendant que ses coups atterrissent sur votre ligne de jugement, et le Score de Rencontre sous le score principal grimpe à mesure que vous infligez plus de dégâts que lui. Après le morceau, la bannière de résultats se déploie en un récapitulatif complet.
+
+| Métrique de résultat | Lecture de la démo | Ce qu'elle montre |
+|---|---|---|
+| Taux offensif | 73 172 | Votre production offensive globale |
+| Dégâts infligés | 30 000 | Dégâts réellement infligés à l'adversaire |
+| Taux défensif | 31 932 | Votre force défensive globale |
+| Dégâts reçus | 2 484 | Dégâts qui ont passé |
+| Score de Rencontre | 000'233'656 (CONNECTÉ) | Note de performance de la partie |
+
+Terminer la Plongée rapporte de nouveaux Iota sur l'écran de résultats. Une complétion dans la démo a fait tomber cinq pièces, chacune étiquetée par source — certaines de Rang, d'autres de Durée du morceau. Les nombres de butins varient entre les parties, donc un farming efficace est la voie fiable. Si vous voulez un regard plus approfondi sur le jeu lui-même, le [site du studio lowiro](https://lowiro.com/) couvre le projet et ses présentations officielles.
+
+## Erreurs courantes et conseils de progression
+
+- **N'intégrez jamais en dessous de 100 % d'efficacité.** Une carte construite à 89 % est définitivement plus faible que le même plateau construit proprement.
+- **Vérifiez la Limite d'Iota avant de valider.** L'aperçu de la grille reste verrouillé, alors planifiez votre placement à partir des chiffres du panneau.
+- **Reconstruisez au lieu d'espérer des améliorations.** Les fabrications en double sont des cartes distinctes, alors considérez chaque carte terminée comme un instantané de l'Iota que vous avez dépensé.
+- **Priorisez la Potence plutôt que le volume.** Quatre pièces à forte Potence peuvent surpasser un plateau encombré et couvert de pénalités.
+- **Associez les traits aux phases.** Un passif défensif verrouillé à une phase ne vaut que par la phase qu'il couvre.
+- **Farmez les rencontres qui font tomber les étiquettes dont vous avez besoin.** Les butins de Rang et de Durée du morceau financent différentes parties de votre cycle de fabrication.
+
+## FAQ
+
+**Que sont les cartes d'In Falsus, et comment les obtenir ?**
+Les cartes d'In Falsus sont fabriquées plutôt que tirées. Vous choisissez un Plan de personnage, intégrez des pièces d'Iota sur ses Zones colorées, maintenez les pénalités à zéro et finalisez le build. La carte terminée rejoint votre collection et occupe l'un des cinq emplacements d'une Rencontre.
+
+**Qu'est-ce que le Souvenir dans In Falsus ?**
+Le Souvenir est le libellé du calendrier de l'histoire imprimé à côté de la Note de difficulté sur l'écran de préparation de chaque rencontre — par exemple, « 1 | 10276/8/27 » sur la Plongée d'entraînement. Il correspond au calendrier utilisé par les chapitres du Scénario, ce qui suggère que chaque rencontre est ancrée à un moment précis de l'histoire.
+
+**Comment la Potence des Iota affecte-t-elle la fabrication ?**
+La Potence moyenne de vos Iota placés divisée par 100 devient le Multiplicateur de Potence appliqué à chaque stat accordée par vos Zones remplies. Les pièces à plus forte Potence augmentent le multiplicateur, et le multiplicateur élève la Puissance et la Défense de la carte terminée.
+
+**Comment obtenir plus d'Iota ?**
+Terminez des Plongées. L'écran de résultats liste chaque butin avec une étiquette de source telle que Rang ou Durée du morceau. Comme les nombres de butins varient entre les parties, répéter les rencontres que vous pouvez terminer de manière fiable est la façon la plus sûre de continuer à fabriquer.
